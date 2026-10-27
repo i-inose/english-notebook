@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>英語クイズ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* レイアウト: スマホで片手で解ける1カラム。問題 → 選択肢 → 自信 → 回答、の順に縦に並べ、ボタンは指で押しやすい大きさにする */
+:root {
+  --paper: #f6f7f9;
+  --sheet: #ffffff;
+  --grid: #e3e8ef;
+  --ink: #1d2a3a;
+  --ink-soft: #5a6778;
+  --line: #d5dce6;
+  --accent: #2456a6;
+  --accent-soft: #e6eefb;
+  --red: #c8322b;
+  --red-soft: #fbe9e7;
+  --amber: #a86400;
+  --amber-soft: #fdf1dc;
+  --green: #1f7a4d;
+  --green-soft: #e3f4ea;
+  --font-display: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", sans-serif;
+  --font-body: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #12161c; --sheet: #1a2029; --grid: #1f2630; --ink: #e4e9f0; --ink-soft: #9aa6b5;
+    --line: #2e3744; --accent: #8db4f5; --accent-soft: #1d2a40; --red: #ff8a80; --red-soft: #3a1f1e;
+    --amber: #f2b85c; --amber-soft: #3a2c15; --green: #7fd1a4; --green-soft: #17302a; color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background-color: var(--paper);
+  background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: max(16px, env(safe-area-inset-top, 0px));
+  padding-bottom: max(40px, env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: 16px;
+}
+header { display: grid; gap: 4px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; color: var(--accent); }
+h1 { font-family: var(--font-display); font-weight: 900; font-size: 24px; line-height: 1.3; margin: 0; text-wrap: balance; }
+nav { display: flex; flex-wrap: wrap; gap: 12px; font-size: 14px; }
+nav a { color: var(--accent); }
+
+.panel { background: var(--sheet); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 14px; min-width: 0; }
+.muted { color: var(--ink-soft); font-size: 14px; margin: 0; }
+
+.progress { display: grid; gap: 6px; }
+.progress .row { display: flex; justify-content: space-between; font-size: 13px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.bar { height: 6px; background: var(--grid); border-radius: 999px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--accent); }
+
+.q { margin: 0; font-size: 17px; white-space: pre-wrap; }
+.multi { display: inline-block; font-size: 13px; font-weight: 700; color: var(--accent); background: var(--accent-soft); padding: 2px 10px; border-radius: 999px; justify-self: start; }
+
+.opts { display: grid; gap: 10px; }
+.opt {
+  all: unset; box-sizing: border-box; cursor: pointer; display: flex; gap: 10px; align-items: flex-start;
+  padding: 12px 14px; border-radius: 10px; border: 1.5px solid var(--line); background: var(--sheet); min-height: 48px;
+}
+.opt:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.opt[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.opt .mark { font-family: var(--font-mono); font-size: 12px; min-width: 3.6em; flex: none; padding-top: 3px; color: var(--ink-soft); }
+.opt.correct { border-color: var(--green); background: var(--green-soft); font-weight: 700; }
+.opt.correct .mark { color: var(--green); }
+.opt.mine { border-color: var(--red); background: var(--red-soft); color: var(--red); }
+.opt.mine .txt { text-decoration: line-through; text-decoration-thickness: 2px; }
+.opt.mine .mark { color: var(--red); }
+.opt:disabled, .opt[aria-disabled="true"] { cursor: default; }
+
+.conf { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.conf button {
+  all: unset; box-sizing: border-box; cursor: pointer; text-align: center; padding: 12px 8px; border-radius: 10px;
+  border: 1.5px solid var(--line); background: var(--sheet); min-height: 48px; display: grid; gap: 2px;
+}
+.conf button small { font-size: 12px; color: var(--ink-soft); }
+.conf button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--sheet); }
+.conf button[aria-pressed="true"] small { color: var(--sheet); }
+.conf button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.label { font-size: 13px; font-weight: 700; color: var(--ink-soft); margin: 0; }
+
+.btn {
+  all: unset; box-sizing: border-box; cursor: pointer; text-align: center; padding: 14px 16px; border-radius: 10px;
+  background: var(--accent); color: var(--sheet); font-weight: 700; min-height: 50px; display: block;
+}
+.btn[aria-disabled="true"] { opacity: .4; cursor: not-allowed; }
+.btn.secondary { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); }
+.btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+.verdict { font-family: var(--font-display); font-weight: 900; font-size: 20px; margin: 0; }
+.verdict.ok { color: var(--green); }
+.verdict.ng { color: var(--red); }
+.box { padding: 10px 12px; border-radius: 0 8px 8px 0; border-left: 3px solid var(--line); }
+.box b { display: block; font-size: 12px; letter-spacing: .04em; }
+.box p { margin: 0; white-space: pre-wrap; }
+.box.why { border-color: var(--green); background: var(--green-soft); }
+.box.why b { color: var(--green); }
+.box.contrast { border-color: var(--red); background: var(--red-soft); }
+.box.contrast b { color: var(--red); }
+.box.example { border-color: var(--accent); background: var(--accent-soft); }
+.box.example b { color: var(--accent); }
+details { border-top: 1px dashed var(--line); padding-top: 8px; }
+summary { cursor: pointer; font-size: 14px; color: var(--accent); font-weight: 500; }
+.src { margin: 6px 0 0; padding-left: 1.2em; font-size: 14px; }
+.src a { color: var(--accent); word-break: break-all; }
+
+.sets { display: grid; gap: 10px; }
+.set {
+  all: unset; box-sizing: border-box; cursor: pointer; display: grid; gap: 4px; padding: 14px; border-radius: 10px;
+  border: 1.5px solid var(--line); background: var(--sheet);
+}
+.set:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.set .top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.set .name { font-weight: 700; }
+.pill { font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.pill.new { background: var(--accent-soft); color: var(--accent); }
+.pill.doing { background: var(--amber-soft); color: var(--amber); }
+.pill.sent { background: var(--green-soft); color: var(--green); }
+
+.score { font-family: var(--font-display); font-weight: 900; font-size: 40px; line-height: 1.1; font-variant-numeric: tabular-nums; margin: 0; }
+.score small { font-size: 16px; font-weight: 500; color: var(--ink-soft); margin-left: 6px; }
+.results { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.results li { display: flex; gap: 10px; align-items: baseline; font-size: 14px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+.results .r { font-weight: 700; min-width: 2.8em; }
+.results .r.ok { color: var(--green); }
+.results .r.ng { color: var(--red); }
+.results .t { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+textarea { width: 100%; min-height: 120px; font-family: var(--font-mono); font-size: 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); padding: 8px; }
+.word { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.word b { font-family: var(--font-display); font-size: 30px; font-weight: 900; line-height: 1.2; }
+.speak { all: unset; box-sizing: border-box; cursor: pointer; padding: 6px 14px; border-radius: 999px; border: 1.5px solid var(--accent); color: var(--accent); font-size: 14px; font-weight: 700; }
+.speak:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.empty { text-align: center; color: var(--ink-soft); padding: 24px 8px; }
+.empty b { display: block; color: var(--ink); font-family: var(--font-display); font-size: 17px; margin-bottom: 4px; }
+@media (prefers-reduced-motion: no-preference) { .bar span { transition: width .2s ease; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">ENGLISH · TOEIC L&amp;R 900+</span>
+    <h1 id="title">英語クイズ</h1>
+    <nav>
+      <a href="./">間違いノート</a>
+      <a href="#" id="to-sets">問題セットの一覧</a>
+    </nav>
+  </header>
+  <main id="main"><div class="empty"><b>問題を読み込んでいます</b></div></main>
+</div>
+
+<script>
+const REPO = "i-inose/english-notebook";
+const TODAY = new Date().toLocaleDateString("sv-SE");
+let quiz = { sets: [] };
+let cur = null;     // いま解いているセット
+let sel = new Set();
+let conf = null;
+
+function el(tag, attrs = {}, ...children) {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") node.className = v;
+    else if (k === "text") node.textContent = v;
+    else node.setAttribute(k, v);
+  }
+  for (const c of children) if (c != null) node.append(c);
+  return node;
+}
+const main = () => document.getElementById("main");
+
+// 読み上げ（ブラウザの音声）。米国英語の声を優先して選ぶ
+let voice = null;
+function pickVoice() {
+  try {
+    const vs = speechSynthesis.getVoices().filter(v => v.lang.replace("_", "-").startsWith("en-US"));
+    voice = vs.find(v => /premium|enhanced/i.test(v.name)) || vs.find(v => /Samantha|Ava|Allison|Zoe/.test(v.name)) || vs[0] || null;
+  } catch {}
+}
+if ("speechSynthesis" in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+function speak(text, rate = 0.9) {
+  try {
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US"; if (voice) u.voice = voice; u.rate = rate;
+    speechSynthesis.speak(u);
+  } catch {}
+}
+function speakBtn(text, label) {
+  const b = el("button", { class: "speak", type: "button", text: label || "🔊 聞く" });
+  b.addEventListener("click", () => speak(text));
+  return b;
+}
+// 単語の問題は単語を大きく出し、タップで発音を流す
+function wordNode(q) {
+  return q.word ? el("div", { class: "word" }, el("b", { text: q.word }), speakBtn(q.word)) : null;
+}
+const show = (...nodes) => { main().replaceChildren(...nodes); window.scrollTo(0, 0); };
+
+// 進み具合は端末のブラウザにだけ保存する（取り込みは GitHub の Issue 経由）
+function loadProgress(id) {
+  try { return JSON.parse(localStorage.getItem("enquiz:" + id)) || { answers: [], sent: false }; }
+  catch { return { answers: [], sent: false }; }
+}
+function saveProgress(id, p) {
+  try { localStorage.setItem("enquiz:" + id, JSON.stringify(p)); } catch {}
+}
+
+// 出し直しを送ったノート。Mac で取り込まれる（lastReviewed が追いつく）までは、もう一度は出さない
+function loadReviewed() { try { return JSON.parse(localStorage.getItem("enquiz:reviewed")) || {}; } catch { return {}; } }
+function saveReviewed(m) { try { localStorage.setItem("enquiz:reviewed", JSON.stringify(m)); } catch {} }
+let notes = [];
+function todaySet() {
+  const done = loadReviewed();
+  for (const n of notes) if (done[n.no] && (n.lastReviewed || "") >= done[n.no]) delete done[n.no];
+  saveReviewed(done);
+  const due = notes.filter(n => (n.status || "active") === "active" && n.nextReview && n.nextReview <= TODAY && !done[n.no])
+    .sort((a, b) => a.nextReview.localeCompare(b.nextReview) || a.no - b.no);
+  if (!due.length) return null;
+  return { id: "rev-" + TODAY, label: "今日の出し直し", dynamic: true, createdAt: TODAY,
+    questions: due.map(n => ({ kind: "review", no: n.no, question: n.question, word: n.word, say: n.say, choices: n.choices,
+      correct: n.correct, why: n.why, contrast: n.contrast, example: n.example })) };
+}
+
+function setStatus(s) {
+  const p = loadProgress(s.id);
+  if (p.sent) return { cls: "sent", text: "送信済み（取り込み待ち）" };
+  if (p.answers.length >= s.questions.length) return { cls: "doing", text: "解き終わり・未送信" };
+  if (p.answers.length) return { cls: "doing", text: `途中 ${p.answers.length}/${s.questions.length}` };
+  return { cls: "new", text: "未着手" };
+}
+
+function renderSets() {
+  cur = null;
+  document.getElementById("title").textContent = "英語クイズ";
+  if (!quiz.sets.length && !todaySet()) {
+    show(el("div", { class: "panel" }, el("div", { class: "empty" },
+      el("b", { text: "今は解ける問題セットがありません" }),
+      "Mac で Claude に「スマホ用の問題を作って」と頼むと、ここに追加されます。")));
+    return;
+  }
+  const list = el("div", { class: "sets" });
+  const ts = todaySet();
+  for (const s of ts ? [ts, ...quiz.sets] : quiz.sets) {
+    const st = setStatus(s);
+    const btn = el("button", { class: "set", type: "button" },
+      el("span", { class: "top" }, el("span", { class: "name", text: s.label }), el("span", { class: "pill " + st.cls, text: st.text })),
+      el("span", { class: "muted", text: `${s.questions.length}問・作成 ${s.createdAt || ""}` }));
+    btn.addEventListener("click", () => openSet(s));
+    list.append(btn);
+  }
+  show(el("div", { class: "panel" },
+    el("p", { class: "muted", text: "「今日の出し直し」があれば最初に解いてください。復習日はノートの問題ごとに、正解するたびに 1日→3日→7日→16日→35日と延びます。" }),
+    el("p", { class: "muted", text: "夜に新しいセットを解き、寝たあと翌朝に出し直しを解くと、少ない回数で長く覚えられます。解き終わったら結果を GitHub に送ってください。" }),
+    list));
+}
+
+function openSet(s) {
+  cur = s;
+  document.getElementById("title").textContent = s.label;
+  const p = loadProgress(s.id);
+  if (p.answers.length >= s.questions.length) renderDone();
+  else renderQuestion(p.answers.length);
+}
+
+function progressNode(i, n) {
+  return el("div", { class: "progress" },
+    el("div", { class: "row" }, el("span", { text: `Q${i + 1} / ${n}` }), el("span", { text: cur.label })),
+    el("div", { class: "bar" }, el("span", { style: `width:${Math.round(i / n * 100)}%` })));
+}
+
+function renderQuestion(i) {
+  const q = cur.questions[i];
+  const multi = q.correct.length > 1;
+  sel = new Set();
+  conf = null;
+
+  const opts = el("div", { class: "opts", role: "group", "aria-label": "選択肢" });
+  q.choices.forEach(c => {
+    const letter = String(c).trim().charAt(0);
+    const b = el("button", { class: "opt", type: "button", "aria-pressed": "false" },
+      el("span", { class: "mark", text: "" }), el("span", { class: "txt", text: c }));
+    b.addEventListener("click", () => {
+      if (multi) {
+        if (sel.has(letter)) sel.delete(letter);
+        else if (sel.size < 2) sel.add(letter);
+      } else {
+        sel = new Set([letter]);
+      }
+      for (const x of opts.children) x.setAttribute("aria-pressed", String(sel.has(x.textContent.trim().charAt(0))));
+      update();
+    });
+    opts.append(b);
+  });
+
+  const confBox = el("div", { class: "conf", role: "group", "aria-label": "自信" });
+  [["high", "◎ 自信あり", "根拠を説明できる"], ["low", "△ 勘", "迷った・消去法"]].forEach(([v, t, s]) => {
+    const b = el("button", { type: "button", "aria-pressed": "false" }, el("span", { text: t }), el("small", { text: s }));
+    b.addEventListener("click", () => {
+      conf = v;
+      for (const x of confBox.children) x.setAttribute("aria-pressed", String(x === b));
+      update();
+    });
+    confBox.append(b);
+  });
+
+  const submit = el("button", { class: "btn", type: "button", "aria-disabled": "true", text: "回答する" });
+  // 単語の問題は、選択肢を見る前に自分で意味を思い出す（想起練習: Karpicke & Roediger 2008）
+  const area = el("div", { class: "opts" }, opts, el("p", { class: "label", text: "この回答に自信はありますか？" }), confBox, submit);
+  let reveal = null;
+  if (q.word) {
+    area.hidden = true;
+    reveal = el("button", { class: "btn secondary", type: "button", text: "意味を思い出したら、選択肢を見る" });
+    reveal.addEventListener("click", () => { area.hidden = false; reveal.remove(); });
+  }
+  const ready = () => (multi ? sel.size === 2 : sel.size === 1) && conf;
+  function update() { submit.setAttribute("aria-disabled", String(!ready())); }
+  submit.addEventListener("click", () => {
+    if (!ready()) return;
+    const p = loadProgress(cur.id);
+    p.answers[i] = { i, selected: [...sel].sort().join(""), confidence: conf };
+    p.answers = p.answers.slice(0, i + 1);
+    saveProgress(cur.id, p);
+    renderFeedback(i);
+  });
+
+  show(el("div", { class: "panel" },
+    progressNode(i, cur.questions.length),
+    multi ? el("span", { class: "multi", text: "2つ選んでください" }) : null,
+    el("p", { class: "q", text: q.question }),
+    wordNode(q),
+    reveal,
+    area));
+}
+
+function box(cls, label, text) {
+  return text ? el("div", { class: "box " + cls }, el("b", { text: label }), el("p", { text })) : null;
+}
+
+function renderFeedback(i) {
+  const q = cur.questions[i];
+  const a = loadProgress(cur.id).answers[i];
+  const corr = q.correct.split("").sort().join("");
+  const ok = a.selected === corr;
+
+  const opts = el("div", { class: "opts" });
+  q.choices.forEach(c => {
+    const letter = String(c).trim().charAt(0);
+    const isCorr = corr.includes(letter);
+    const isMine = !isCorr && a.selected.includes(letter);
+    opts.append(el("div", { class: "opt" + (isCorr ? " correct" : isMine ? " mine" : ""), "aria-disabled": "true" },
+      el("span", { class: "mark", text: isCorr ? "正解" : isMine ? "自分の答え" : "" }),
+      el("span", { class: "txt", text: c })));
+  });
+
+  let noteMsg;
+  if (q.kind === "review") noteMsg = "ノートの出し直しの問題です。結果は取り込み時に反映されます。";
+  else if (ok && a.confidence === "high") noteMsg = "自信ありで正解なので、ノートには入りません。";
+  else noteMsg = ok ? "ノートに入ります（勘で正解のため）。" : "ノートに入ります（不正解のため）。";
+
+  const correctText = q.choices.filter(c => corr.includes(String(c).trim().charAt(0))).join(" と ");
+  const last = i + 1 >= cur.questions.length;
+  const next = el("button", { class: "btn", type: "button", text: last ? "結果を見る" : "次の問題へ" });
+  next.addEventListener("click", () => last ? startRetry() : renderQuestion(i + 1));
+
+  const links = (q.sources || []).filter(s => /^https:\/\//.test(String(s.url || "")));
+  const more = (q.explanation || links.length)
+    ? el("details", {}, el("summary", { text: "詳しい解説と出典" }),
+        q.explanation ? el("p", { class: "q", style: "font-size:15px;margin-top:8px", text: q.explanation }) : null,
+        links.length ? el("ul", { class: "src" }, ...links.map(s => el("li", {}, el("a", { href: s.url, target: "_blank", rel: "noopener", text: s.title || s.url })))) : null)
+    : null;
+
+  show(el("div", { class: "panel" },
+    progressNode(i, cur.questions.length),
+    el("p", { class: "verdict " + (ok ? "ok" : "ng"), text: ok ? "正解" : "不正解" }),
+    ok ? null : el("p", { class: "muted", text: "正解は " + correctText }),
+    el("p", { class: "muted", text: noteMsg }),
+    el("p", { class: "q", text: q.question }),
+    wordNode(q),
+    opts,
+    q.say ? speakBtn(q.say, "🔊 例文・正しい文を聞く") : null,
+    box("why", "正解の理由", q.why),
+    box("contrast", "紛らわしい相手との違い", q.contrast),
+    box("example", "例文・訳", q.example),
+    more,
+    next));
+}
+
+function isWrong(q, a) { return !a || a.selected !== q.correct.split("").sort().join(""); }
+
+// 回の最後に、間違えた問題をもう一度出す。正解するまで後ろに回す（記録は1回目の答えだけ）
+function startRetry() {
+  const p = loadProgress(cur.id);
+  const queue = cur.questions.map((q, i) => i).filter(i => isWrong(cur.questions[i], p.answers[i]));
+  if (!queue.length || p.retryDone) return renderDone();
+  renderRetry(queue, queue.length);
+}
+function renderRetry(queue, total) {
+  if (!queue.length) {
+    const p = loadProgress(cur.id); p.retryDone = true; saveProgress(cur.id, p);
+    return renderDone();
+  }
+  const i = queue[0], q = cur.questions[i];
+  const corr = q.correct.split("").sort().join("");
+  const opts = el("div", { class: "opts" });
+  const after = el("div", { class: "opts" });
+  q.choices.forEach(c => {
+    const letter = String(c).trim().charAt(0);
+    const b = el("button", { class: "opt", type: "button" }, el("span", { class: "mark", text: "" }), el("span", { class: "txt", text: c }));
+    b.addEventListener("click", () => {
+      if (after.childElementCount) return;
+      const ok = corr.length === 1 ? letter === corr : corr.includes(letter);
+      for (const x of opts.children) {
+        const l = x.textContent.replace(/^(正解|自分の答え)/, "").trim().charAt(0);
+        if (corr.includes(l)) { x.classList.add("correct"); x.firstChild.textContent = "正解"; }
+      }
+      if (!ok) { b.classList.add("mine"); b.firstChild.textContent = "自分の答え"; }
+      queue.shift();
+      if (!ok) queue.push(i);
+      const next = el("button", { class: "btn", type: "button", text: queue.length ? "次へ" : "結果を見る" });
+      next.addEventListener("click", () => renderRetry(queue, total));
+      after.append(
+        el("p", { class: "verdict " + (ok ? "ok" : "ng"), text: ok ? "正解" : "もう一度、最後に出します" }),
+        q.say ? speakBtn(q.say, "🔊 例文・正しい文を聞く") : null,
+        box("why", "正解の理由", q.why), next);
+    });
+    opts.append(b);
+  });
+  show(el("div", { class: "panel" },
+    el("div", { class: "progress" }, el("div", { class: "row" }, el("span", { text: `解き直し 残り ${queue.length}` }), el("span", { text: cur.label }))),
+    el("p", { class: "muted", text: "この回で間違えた問題を、正解するまで解き直します（記録には1回目の答えが残ります）。" }),
+    el("p", { class: "q", text: q.question }), wordNode(q), opts, after));
+}
+
+function resultPayload() {
+  const p = loadProgress(cur.id);
+  const r = { setId: cur.id, date: TODAY, answers: p.answers };
+  if (cur.dynamic) r.nos = cur.questions.map(q => q.no);
+  return r;
+}
+
+function renderDone() {
+  const p = loadProgress(cur.id);
+  const n = cur.questions.length;
+  const marks = cur.questions.map((q, i) => {
+    const a = p.answers[i];
+    return { q, a, ok: a && a.selected === q.correct.split("").sort().join("") };
+  });
+  const score = marks.filter(m => m.ok).length;
+
+  const json = JSON.stringify(resultPayload());
+  const body = "スマホのクイズの結果です。Mac で Claude に「スマホの結果を取り込んで」と頼むと、ノートに反映されます。\n\n```json\n" + json + "\n```\n";
+  const title = `[quiz-result] ${cur.label} ${score}/${n}`;
+  const url = `https://github.com/${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+
+  const send = el("a", { class: "btn", href: url, target: "_blank", rel: "noopener", text: p.sent ? "もう一度 GitHub に送る" : "結果を GitHub に送る" });
+  send.addEventListener("click", () => {
+    p.sent = true; saveProgress(cur.id, p);
+    if (cur.dynamic) { const done = loadReviewed(); cur.questions.forEach(q => { done[q.no] = TODAY; }); saveReviewed(done); }
+    setTimeout(renderDone, 300);
+  });
+
+  const area = el("textarea", { readonly: "", hidden: "" });
+  area.value = body;
+  const copy = el("button", { class: "btn secondary", type: "button", text: "結果をコピー" });
+  copy.addEventListener("click", () => {
+    navigator.clipboard.writeText(body)
+      .then(() => { copy.textContent = "コピーしました"; })
+      .catch(() => { area.hidden = false; area.focus(); area.select(); copy.textContent = "下の文字を長押ししてコピーしてください"; });
+  });
+
+  const back = el("button", { class: "btn secondary", type: "button", text: "問題セットの一覧へ" });
+  back.addEventListener("click", renderSets);
+
+  show(el("div", { class: "panel" },
+    el("p", { class: "label", text: cur.label + " の結果" }),
+    el("p", { class: "score" }, `${score} / ${n}`, el("small", { text: `${Math.round(score / n * 100)}%` })),
+    el("ul", { class: "results" }, ...marks.map((m, i) => el("li", {},
+      el("span", { class: "r " + (m.ok ? "ok" : "ng"), text: m.ok ? "○" : "×" }),
+      el("span", { class: "muted", text: m.a ? (m.a.confidence === "high" ? "◎" : "△") : "" }),
+      el("span", { class: "t", text: `Q${i + 1} ${m.q.question}` })))),
+    p.sent
+      ? el("p", { class: "muted", text: "送信済みです。Mac で Claude が取り込むと、この問題セットは一覧から消えます。" })
+      : el("p", { class: "muted", text: "「結果を GitHub に送る」を押すと、結果入りの Issue の作成画面が開きます。そのまま「Create」で送ってください。" }),
+    send, copy, area, back));
+}
+
+document.getElementById("to-sets").addEventListener("click", e => { e.preventDefault(); renderSets(); });
+
+Promise.all([
+  fetch("quiz.json", { cache: "no-store" }).then(r => r.ok ? r.json() : { sets: [] }).catch(() => ({ sets: [] })),
+  fetch("data.json", { cache: "no-store" }).then(r => r.ok ? r.json() : { notes: [] }).catch(() => ({ notes: [] })),
+]).then(([q, d]) => {
+  quiz = q && Array.isArray(q.sets) ? q : { sets: [] };
+  notes = d && Array.isArray(d.notes) ? d.notes : [];
+  renderSets();
+});
+</script>
+</body>
+</html>

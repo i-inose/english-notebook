@@ -1,0 +1,3012 @@
+{
+  "sets": [
+    {
+      "id": "w-a1",
+      "label": "単語 セット1",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "postpone",
+          "word": "postpone",
+          "say": "The meeting has been postponed until next Monday.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 延期する",
+            "B. 検査する",
+            "C. 採用する",
+            "D. 提出する"
+          ],
+          "correct": "A",
+          "why": "postpone（動）＝ 延期する",
+          "contrast": "採用する ＝ recruit\n提出する ＝ submit\n検査する ＝ inspect",
+          "example": "The meeting has been postponed until next Monday.\n会議は来週の月曜日まで延期された。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "reimburse",
+          "word": "reimburse",
+          "say": "The company will reimburse you for your travel expenses.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 異動させる・転勤させる",
+            "B. 確認する",
+            "C. （立て替えた費用を）払い戻す",
+            "D. 延長する"
+          ],
+          "correct": "C",
+          "why": "reimburse（動）＝ （立て替えた費用を）払い戻す",
+          "contrast": "延長する ＝ extend\n確認する ＝ confirm\n異動させる・転勤させる ＝ transfer",
+          "example": "The company will reimburse you for your travel expenses.\n会社が出張費を払い戻します。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "inadvertently",
+          "word": "inadvertently",
+          "say": "I inadvertently deleted the file.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. うっかり",
+            "B. 期限が切れる",
+            "C. 確認する",
+            "D. 買収する・手に入れる"
+          ],
+          "correct": "A",
+          "why": "inadvertently（副）＝ うっかり",
+          "contrast": "買収する・手に入れる ＝ acquire\n期限が切れる ＝ expire\n確認する ＝ confirm",
+          "example": "I inadvertently deleted the file.\nうっかりファイルを消してしまった。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "meticulous",
+          "word": "meticulous",
+          "say": "She is meticulous about checking the figures.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 資格がある",
+            "B. 常勤の・永久の",
+            "C. 細心の注意を払った",
+            "D. 空いている"
+          ],
+          "correct": "C",
+          "why": "meticulous（形）＝ 細心の注意を払った",
+          "contrast": "資格がある ＝ eligible\n空いている ＝ vacant\n常勤の・永久の ＝ permanent",
+          "example": "She is meticulous about checking the figures.\n彼女は数字の確認にとても細かい。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "submit",
+          "word": "submit",
+          "say": "Please submit your report by Friday.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 実施する",
+            "B. 退職する",
+            "C. 昇進させる",
+            "D. 提出する"
+          ],
+          "correct": "D",
+          "why": "submit（動）＝ 提出する",
+          "contrast": "実施する ＝ implement\n昇進させる ＝ promote\n退職する ＝ retire",
+          "example": "Please submit your report by Friday.\n金曜日までに報告書を提出してください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "approve",
+          "word": "approve",
+          "say": "The manager approved the budget.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 交渉する",
+            "B. 承認する",
+            "C. 採用する",
+            "D. 宣伝する・広告する"
+          ],
+          "correct": "B",
+          "why": "approve（動）＝ 承認する",
+          "contrast": "採用する ＝ recruit\n交渉する ＝ negotiate\n宣伝する・広告する ＝ advertise",
+          "example": "The manager approved the budget.\n部長が予算を承認した。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "confirm",
+          "word": "confirm",
+          "say": "Could you confirm your reservation?",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 実施する",
+            "B. 承認する",
+            "C. 確認する",
+            "D. 検査する"
+          ],
+          "correct": "C",
+          "why": "confirm（動）＝ 確認する",
+          "contrast": "実施する ＝ implement\n検査する ＝ inspect\n承認する ＝ approve",
+          "example": "Could you confirm your reservation?\n予約を確認していただけますか？"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "deadline",
+          "word": "deadline",
+          "say": "The deadline for applications is May 31.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 仕入れ先",
+            "B. 契約（書）",
+            "C. 締め切り",
+            "D. 調査・アンケート"
+          ],
+          "correct": "C",
+          "why": "deadline（名）＝ 締め切り",
+          "contrast": "契約（書） ＝ contract\n調査・アンケート ＝ survey\n仕入れ先 ＝ supplier",
+          "example": "The deadline for applications is May 31.\n応募の締め切りは5月31日です。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "estimate",
+          "word": "estimate",
+          "say": "We asked three companies for an estimate.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 工事・建設",
+            "B. 倉庫",
+            "C. 資格",
+            "D. 見積もり"
+          ],
+          "correct": "D",
+          "why": "estimate（名）＝ 見積もり",
+          "contrast": "工事・建設 ＝ construction\n資格 ＝ qualification\n倉庫 ＝ warehouse",
+          "example": "We asked three companies for an estimate.\n3社に見積もりを頼んだ。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "receipt",
+          "word": "receipt",
+          "say": "Please keep your receipt for a refund.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 割引",
+            "B. 提案（書）",
+            "C. 上司",
+            "D. 領収書"
+          ],
+          "correct": "D",
+          "why": "receipt（名）＝ 領収書",
+          "contrast": "割引 ＝ discount\n提案（書） ＝ proposal\n上司 ＝ supervisor",
+          "example": "Please keep your receipt for a refund.\n返金のために領収書を保管してください。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "g2-a",
+      "label": "文法 助動詞＋have＋過去分詞 セットA",
+      "focus": 2,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "The lights are off. Everyone must have gone home already.",
+          "question": "空欄に入る語句はどれですか？\nThe lights are off. Everyone ___ gone home already.",
+          "choices": [
+            "A. can't have",
+            "B. needn't have",
+            "C. should have",
+            "D. must have"
+          ],
+          "correct": "D",
+          "why": "明かりが消えているという根拠から「帰ったに違いない」と強く推量するので must have。",
+          "contrast": "must have ＝ 〜したに違いない（強い推量）\ncan't have ＝ 〜したはずがない（逆の意味）",
+          "example": "The lights are off. Everyone must have gone home already.\n明かりが消えている。みんなもう帰ったに違いない。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        },
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "He can't have seen me yesterday. I was in Osaka all day.",
+          "question": "空欄に入る語句はどれですか？\nHe ___ have seen me yesterday. I was in Osaka all day.",
+          "choices": [
+            "A. could",
+            "B. must",
+            "C. should",
+            "D. can't"
+          ],
+          "correct": "D",
+          "why": "一日中大阪にいたので、見たことはありえない。can't have ＝ 〜したはずがない。",
+          "contrast": "can't have ＝ ありえない\nmust have ＝ 〜したに違いない",
+          "example": "He can't have seen me yesterday. I was in Osaka all day.\n彼が昨日私を見たはずがない。私は一日中大阪にいた。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        },
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "I'm sorry I was late. I should have left home earlier.",
+          "question": "空欄に入る語句はどれですか？\nI'm sorry I was late. I ___ left home earlier.",
+          "choices": [
+            "A. should have",
+            "B. may have",
+            "C. must have",
+            "D. can't have"
+          ],
+          "correct": "A",
+          "why": "実際は早く出なかったことへの後悔なので should have（〜すべきだったのに）。",
+          "contrast": "should have ＝ 〜すべきだった（後悔）\nmust have ＝ 〜したに違いない（推量）",
+          "example": "I'm sorry I was late. I should have left home earlier.\n遅れてすみません。もっと早く家を出るべきでした。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        },
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "Mr. Kim may have read the e-mail, but I'm not sure.",
+          "question": "空欄に入る語句はどれですか？\nMr. Kim ___ the e-mail, but I'm not sure.",
+          "choices": [
+            "A. needn't have read",
+            "B. should have read",
+            "C. may have read",
+            "D. can't have read"
+          ],
+          "correct": "C",
+          "why": "「確かではない」とあるので、弱い推量の may have（〜したかもしれない）。",
+          "contrast": "may have ＝ 〜したかもしれない（弱い推量）\nmust have ＝ 〜したに違いない（強い推量）",
+          "example": "Mr. Kim may have read the e-mail, but I'm not sure.\nキムさんはメールを読んだかもしれないが、確かではない。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        },
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "You needn't have brought an umbrella. It didn't rain at all.",
+          "question": "空欄に入る語句はどれですか？\nYou ___ brought an umbrella. It didn't rain at all.",
+          "choices": [
+            "A. must have",
+            "B. may have",
+            "C. needn't have",
+            "D. can't have"
+          ],
+          "correct": "C",
+          "why": "実際に傘を持ってきたが、結果的に不要だったので needn't have。",
+          "contrast": "needn't have ＝ 〜する必要はなかった（のにした）\nshould have ＝ 〜すべきだった（のにしなかった）",
+          "example": "You needn't have brought an umbrella. It didn't rain at all.\n傘を持ってくる必要はなかったのに。まったく降らなかった。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        },
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "The report has several errors. It should have been checked more carefully.",
+          "question": "空欄に入る語句はどれですか？\nThe report has several errors. It ___ checked more carefully.",
+          "choices": [
+            "A. must have been",
+            "B. should have been",
+            "C. can't have been",
+            "D. needn't have been"
+          ],
+          "correct": "B",
+          "why": "誤りがあるのは確認が足りなかったから。報告書は「確認される」側なので受け身の should have been。",
+          "contrast": "should have been checked ＝ 確認されるべきだった\nmust have been checked ＝ 確認されたに違いない",
+          "example": "The report has several errors. It should have been checked more carefully.\n報告書に誤りがいくつかある。もっと注意して確認されるべきだった。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        },
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "She knows every detail of the plan. She must have attended the meeting.",
+          "question": "空欄に入る語句はどれですか？\nShe knows every detail of the plan. She ___ attended the meeting.",
+          "choices": [
+            "A. should have",
+            "B. needn't have",
+            "C. must have",
+            "D. can't have"
+          ],
+          "correct": "C",
+          "why": "細部まで知っているという根拠から、出席したと強く推量するので must have。",
+          "contrast": "must have ＝ 根拠があって強く推量\nshould have ＝ 後悔・非難",
+          "example": "She knows every detail of the plan. She must have attended the meeting.\n彼女は計画の細部まで知っている。会議に出たに違いない。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        },
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "We could have won the contract if our price had been lower.",
+          "question": "空欄に入る語句はどれですか？\nWe ___ won the contract if our price had been lower.",
+          "choices": [
+            "A. could have",
+            "B. must have",
+            "C. needn't have",
+            "D. can't have"
+          ],
+          "correct": "A",
+          "why": "実際には取れなかったが、条件しだいで可能だった。could have ＝ 〜できたのに。",
+          "contrast": "could have ＝ 〜できたのに（実際はしなかった）\nmust have ＝ 〜したに違いない",
+          "example": "We could have won the contract if our price had been lower.\n価格がもっと安ければ、契約を取れたのに。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        },
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "The package can't have arrived yet. It was shipped only an hour ago.",
+          "question": "空欄に入る語句はどれですか？\nThe package ___ arrived yet. It was shipped only an hour ago.",
+          "choices": [
+            "A. must have",
+            "B. should have",
+            "C. can't have",
+            "D. may have"
+          ],
+          "correct": "C",
+          "why": "1時間前に発送したばかりなので、もう届いていることはありえない。can't have。",
+          "contrast": "can't have ＝ ありえない\nmay have ＝ 〜したかもしれない",
+          "example": "The package can't have arrived yet. It was shipped only an hour ago.\n荷物はまだ届いたはずがない。1時間前に発送されたばかりだ。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        },
+        {
+          "kind": "new",
+          "domain": 2,
+          "topic": "助動詞＋have＋過去分詞",
+          "say": "Ms. Lee isn't at her desk. She might have gone to lunch.",
+          "question": "空欄に入る語句はどれですか？\nMs. Lee isn't at her desk. She ___ gone to lunch.",
+          "choices": [
+            "A. might have",
+            "B. should have",
+            "C. needn't have",
+            "D. can't have"
+          ],
+          "correct": "A",
+          "why": "席にいない理由を軽く推量しているので might have（〜したかもしれない）。",
+          "contrast": "might have ＝ 〜したかもしれない\nneedn't have ＝ 〜する必要はなかったのに",
+          "example": "Ms. Lee isn't at her desk. She might have gone to lunch.\nリーさんは席にいない。昼食に行ったのかもしれない。",
+          "explanation": "この単元のまとめ\n「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "w-b2",
+      "label": "単語 セット2",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "refund",
+          "word": "refund",
+          "say": "You can get a full refund within 30 days.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 合併",
+            "B. 返金",
+            "C. 受付・歓迎会",
+            "D. 会場"
+          ],
+          "correct": "B",
+          "why": "refund（名）＝ 返金",
+          "contrast": "合併 ＝ merger\n受付・歓迎会 ＝ reception\n会場 ＝ venue",
+          "example": "You can get a full refund within 30 days.\n30日以内なら全額返金を受けられます。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "expense",
+          "word": "expense",
+          "say": "Hotel costs are covered as business expenses.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 収益・売上",
+            "B. 領収書",
+            "C. 経費",
+            "D. 資格"
+          ],
+          "correct": "C",
+          "why": "expense（名）＝ 経費",
+          "contrast": "収益・売上 ＝ revenue\n資格 ＝ qualification\n領収書 ＝ receipt",
+          "example": "Hotel costs are covered as business expenses.\nホテル代は経費として支払われる。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "budget",
+          "word": "budget",
+          "say": "The project is over budget.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 定期購読・利用契約",
+            "B. 予算",
+            "C. 部署",
+            "D. 工事・建設"
+          ],
+          "correct": "B",
+          "why": "budget（名）＝ 予算",
+          "contrast": "工事・建設 ＝ construction\n定期購読・利用契約 ＝ subscription\n部署 ＝ department",
+          "example": "The project is over budget.\nその事業は予算を超えている。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "colleague",
+          "word": "colleague",
+          "say": "I had lunch with a colleague.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 同僚",
+            "B. 経理",
+            "C. 発送品・発送",
+            "D. 見積もり"
+          ],
+          "correct": "A",
+          "why": "colleague（名）＝ 同僚",
+          "contrast": "経理 ＝ accounting\n見積もり ＝ estimate\n発送品・発送 ＝ shipment",
+          "example": "I had lunch with a colleague.\n同僚と昼食をとった。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "supervisor",
+          "word": "supervisor",
+          "say": "Ask your supervisor before you leave early.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 提案（書）",
+            "B. 施設",
+            "C. 上司",
+            "D. 工事・建設"
+          ],
+          "correct": "C",
+          "why": "supervisor（名）＝ 上司",
+          "contrast": "施設 ＝ facility\n工事・建設 ＝ construction\n提案（書） ＝ proposal",
+          "example": "Ask your supervisor before you leave early.\n早退する前に上司に聞いてください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "applicant",
+          "word": "applicant",
+          "say": "All applicants must have a driver's license.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 応募者",
+            "B. 苦情",
+            "C. パンフレット",
+            "D. 遅れ"
+          ],
+          "correct": "A",
+          "why": "applicant（名）＝ 応募者",
+          "contrast": "遅れ ＝ delay\n苦情 ＝ complaint\nパンフレット ＝ brochure",
+          "example": "All applicants must have a driver's license.\n応募者は全員、運転免許が必要です。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "candidate",
+          "word": "candidate",
+          "say": "She is the best candidate for the position.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 内線・延長",
+            "B. 出席者",
+            "C. 仕入れ先",
+            "D. 候補者"
+          ],
+          "correct": "D",
+          "why": "candidate（名）＝ 候補者",
+          "contrast": "内線・延長 ＝ extension\n仕入れ先 ＝ supplier\n出席者 ＝ attendee",
+          "example": "She is the best candidate for the position.\n彼女はその職に最適な候補者だ。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "qualification",
+          "word": "qualification",
+          "say": "What qualifications are required for this job?",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 資格",
+            "B. 調査・アンケート",
+            "C. 出席者",
+            "D. 保証（書）"
+          ],
+          "correct": "A",
+          "why": "qualification（名）＝ 資格",
+          "contrast": "保証（書） ＝ warranty\n出席者 ＝ attendee\n調査・アンケート ＝ survey",
+          "example": "What qualifications are required for this job?\nこの仕事にはどんな資格が必要ですか？"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "recruit",
+          "word": "recruit",
+          "say": "We are recruiting new sales staff.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 更新する",
+            "B. 減らす",
+            "C. 採用する",
+            "D. 買収する・手に入れる"
+          ],
+          "correct": "C",
+          "why": "recruit（動）＝ 採用する",
+          "contrast": "買収する・手に入れる ＝ acquire\n更新する ＝ renew\n減らす ＝ reduce",
+          "example": "We are recruiting new sales staff.\n新しい営業担当を採用している。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "promote",
+          "word": "promote",
+          "say": "He was promoted to manager last year.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 昇進させる",
+            "B. 登録する",
+            "C. 異動させる・転勤させる",
+            "D. 期限が切れる"
+          ],
+          "correct": "A",
+          "why": "promote（動）＝ 昇進させる",
+          "contrast": "登録する ＝ register\n異動させる・転勤させる ＝ transfer\n期限が切れる ＝ expire",
+          "example": "He was promoted to manager last year.\n彼は昨年、部長に昇進した。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "g3-a",
+      "label": "文法 動名詞（-ing）と不定詞（to do） セットA",
+      "focus": 3,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "We are considering opening a new office in Osaka.",
+          "question": "空欄に入る語句はどれですか？\nWe are considering ___ a new office in Osaka.",
+          "choices": [
+            "A. opened",
+            "B. opening",
+            "C. to open",
+            "D. open"
+          ],
+          "correct": "B",
+          "why": "consider は後ろに -ing をとる動詞。to do はとらない。",
+          "contrast": "consider + -ing\ndecide + to do（決める＝これからすること）",
+          "example": "We are considering opening a new office in Osaka.\n大阪に新しい事務所を開くことを検討している。",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        },
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "The company decided to raise its prices next month.",
+          "question": "空欄に入る語句はどれですか？\nThe company decided ___ its prices next month.",
+          "choices": [
+            "A. raised",
+            "B. raise",
+            "C. raising",
+            "D. to raise"
+          ],
+          "correct": "D",
+          "why": "decide は to do をとる。これから先のことを決めるので to 不定詞。",
+          "contrast": "decide + to do\nconsider + -ing",
+          "example": "The company decided to raise its prices next month.\nその会社は来月、値上げすることを決めた。",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        },
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "Please avoid using your phone during the presentation.",
+          "question": "空欄に入る語句はどれですか？\nPlease avoid ___ your phone during the presentation.",
+          "choices": [
+            "A. using",
+            "B. use",
+            "C. to use",
+            "D. used"
+          ],
+          "correct": "A",
+          "why": "avoid は -ing をとる動詞。",
+          "contrast": "avoid + -ing ＝ 〜するのを避ける\nrefuse + to do ＝ 〜するのを断る",
+          "example": "Please avoid using your phone during the presentation.\n発表中は電話を使わないようにしてください。",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        },
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "Would you mind closing the door?",
+          "question": "空欄に入る語句はどれですか？\nWould you mind ___ the door?",
+          "choices": [
+            "A. to close",
+            "B. close",
+            "C. closing",
+            "D. closed"
+          ],
+          "correct": "C",
+          "why": "mind は -ing をとる動詞。Would you mind -ing? ＝ 〜していただけますか。",
+          "contrast": "mind + -ing\nwant + to do",
+          "example": "Would you mind closing the door?\nドアを閉めていただけますか？",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        },
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "The manager agreed to extend the deadline by one week.",
+          "question": "空欄に入る語句はどれですか？\nThe manager agreed ___ the deadline by one week.",
+          "choices": [
+            "A. extended",
+            "B. extend",
+            "C. extending",
+            "D. to extend"
+          ],
+          "correct": "D",
+          "why": "agree は to do をとる動詞。",
+          "contrast": "agree + to do\nsuggest + -ing",
+          "example": "The manager agreed to extend the deadline by one week.\n部長は締め切りを1週間延ばすことに同意した。",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        },
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "Have you finished writing the report?",
+          "question": "空欄に入る語句はどれですか？\nHave you finished ___ the report?",
+          "choices": [
+            "A. written",
+            "B. write",
+            "C. writing",
+            "D. to write"
+          ],
+          "correct": "C",
+          "why": "finish は -ing をとる動詞。",
+          "contrast": "finish + -ing\nplan + to do",
+          "example": "Have you finished writing the report?\n報告書は書き終わりましたか？",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        },
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "Please remember to turn off the lights when you leave.",
+          "question": "空欄に入る語句はどれですか？\nPlease remember ___ the lights when you leave.",
+          "choices": [
+            "A. to turn off",
+            "B. turn off",
+            "C. turned off",
+            "D. turning off"
+          ],
+          "correct": "A",
+          "why": "これからすることを「忘れずに〜する」なので remember to do。",
+          "contrast": "remember to do ＝ 忘れずに〜する（これから）\nremember doing ＝ 〜したことを覚えている（過去）",
+          "example": "Please remember to turn off the lights when you leave.\n帰るときは忘れずに電気を消してください。",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        },
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "I remember meeting Mr. Davis at last year's conference.",
+          "question": "空欄に入る語句はどれですか？\nI remember ___ Mr. Davis at last year's conference.",
+          "choices": [
+            "A. to meet",
+            "B. meeting",
+            "C. meet",
+            "D. met"
+          ],
+          "correct": "B",
+          "why": "昨年すでに会ったことを覚えているので remember doing。",
+          "contrast": "remember doing ＝ 〜したことを覚えている\nremember to do ＝ 忘れずに〜する",
+          "example": "I remember meeting Mr. Davis at last year's conference.\n昨年の会議でデイビスさんに会ったことを覚えている。",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        },
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "They postponed launching the product until spring.",
+          "question": "空欄に入る語句はどれですか？\nThey postponed ___ the product until spring.",
+          "choices": [
+            "A. launch",
+            "B. launching",
+            "C. to launch",
+            "D. launched"
+          ],
+          "correct": "B",
+          "why": "postpone は -ing をとる動詞。",
+          "contrast": "postpone + -ing\nexpect + to do",
+          "example": "They postponed launching the product until spring.\n彼らは製品の発売を春まで延期した。",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        },
+        {
+          "kind": "new",
+          "domain": 3,
+          "topic": "動名詞（-ing）と不定詞（to do）",
+          "say": "The client refused to pay the extra fee.",
+          "question": "空欄に入る語句はどれですか？\nThe client refused ___ the extra fee.",
+          "choices": [
+            "A. paying",
+            "B. to pay",
+            "C. paid",
+            "D. pay"
+          ],
+          "correct": "B",
+          "why": "refuse は to do をとる動詞。",
+          "contrast": "refuse + to do ＝ 〜するのを断る\navoid + -ing ＝ 〜するのを避ける",
+          "example": "The client refused to pay the extra fee.\n顧客は追加料金を払うのを断った。",
+          "explanation": "この単元のまとめ\n動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "w-c3",
+      "label": "単語 セット3",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "retire",
+          "word": "retire",
+          "say": "Mr. Brown will retire at the end of the month.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 退職する",
+            "B. 採用する",
+            "C. 買収する・手に入れる",
+            "D. 知らせる"
+          ],
+          "correct": "A",
+          "why": "retire（動）＝ 退職する",
+          "contrast": "知らせる ＝ notify\n採用する ＝ recruit\n買収する・手に入れる ＝ acquire",
+          "example": "Mr. Brown will retire at the end of the month.\nブラウンさんは月末で退職する。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "transfer",
+          "word": "transfer",
+          "say": "She was transferred to the Tokyo office.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 異動させる・転勤させる",
+            "B. 提出する",
+            "C. 確認する",
+            "D. 退職する"
+          ],
+          "correct": "A",
+          "why": "transfer（動）＝ 異動させる・転勤させる",
+          "contrast": "確認する ＝ confirm\n退職する ＝ retire\n提出する ＝ submit",
+          "example": "She was transferred to the Tokyo office.\n彼女は東京事務所に異動になった。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "headquarters",
+          "word": "headquarters",
+          "say": "Our headquarters are in Chicago.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 契約（書）",
+            "B. 倉庫",
+            "C. 定期購読・利用契約",
+            "D. 本社"
+          ],
+          "correct": "D",
+          "why": "headquarters（名）＝ 本社",
+          "contrast": "契約（書） ＝ contract\n倉庫 ＝ warehouse\n定期購読・利用契約 ＝ subscription",
+          "example": "Our headquarters are in Chicago.\n当社の本社はシカゴにある。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "branch",
+          "word": "branch",
+          "say": "The bank opened a new branch downtown.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 仕入れ先",
+            "B. 応募者",
+            "C. 調査・アンケート",
+            "D. 支店"
+          ],
+          "correct": "D",
+          "why": "branch（名）＝ 支店",
+          "contrast": "応募者 ＝ applicant\n調査・アンケート ＝ survey\n仕入れ先 ＝ supplier",
+          "example": "The bank opened a new branch downtown.\nその銀行は中心街に新しい支店を開いた。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "department",
+          "word": "department",
+          "say": "Which department do you work in?",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 部署",
+            "B. 領収書",
+            "C. 提案（書）",
+            "D. パンフレット"
+          ],
+          "correct": "A",
+          "why": "department（名）＝ 部署",
+          "contrast": "提案（書） ＝ proposal\n領収書 ＝ receipt\nパンフレット ＝ brochure",
+          "example": "Which department do you work in?\nどの部署で働いていますか？"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "personnel",
+          "word": "personnel",
+          "say": "Please send the form to the personnel department.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 人事（部）・職員",
+            "B. 旅程（表）",
+            "C. 倉庫",
+            "D. 苦情"
+          ],
+          "correct": "A",
+          "why": "personnel（名）＝ 人事（部）・職員",
+          "contrast": "倉庫 ＝ warehouse\n苦情 ＝ complaint\n旅程（表） ＝ itinerary",
+          "example": "Please send the form to the personnel department.\nその用紙を人事部に送ってください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "accounting",
+          "word": "accounting",
+          "say": "The accounting team checks every invoice.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 不便・迷惑",
+            "B. 経理",
+            "C. 部署",
+            "D. 会場"
+          ],
+          "correct": "B",
+          "why": "accounting（名）＝ 経理",
+          "contrast": "部署 ＝ department\n不便・迷惑 ＝ inconvenience\n会場 ＝ venue",
+          "example": "The accounting team checks every invoice.\n経理部がすべての請求書を確認する。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "facility",
+          "word": "facility",
+          "say": "The new facility will open in April.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. （図書館・店などの）利用客",
+            "B. 発送品・発送",
+            "C. 施設",
+            "D. 旅程（表）"
+          ],
+          "correct": "C",
+          "why": "facility（名）＝ 施設",
+          "contrast": "旅程（表） ＝ itinerary\n（図書館・店などの）利用客 ＝ patron\n発送品・発送 ＝ shipment",
+          "example": "The new facility will open in April.\n新しい施設は4月に開く。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "equipment",
+          "word": "equipment",
+          "say": "The office equipment will arrive on Monday.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 機器・設備（数えられない）",
+            "B. 利益",
+            "C. 調査・アンケート",
+            "D. 苦情"
+          ],
+          "correct": "A",
+          "why": "equipment（名）＝ 機器・設備（数えられない）",
+          "contrast": "利益 ＝ profit\n調査・アンケート ＝ survey\n苦情 ＝ complaint",
+          "example": "The office equipment will arrive on Monday.\n事務機器は月曜日に届く。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "maintenance",
+          "word": "maintenance",
+          "say": "The elevators are closed for maintenance.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 会場",
+            "B. 保守点検",
+            "C. 締め切り",
+            "D. 応募者"
+          ],
+          "correct": "B",
+          "why": "maintenance（名）＝ 保守点検",
+          "contrast": "締め切り ＝ deadline\n会場 ＝ venue\n応募者 ＝ applicant",
+          "example": "The elevators are closed for maintenance.\nエレベーターは点検のため止まっている。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "g4-a",
+      "label": "文法 分詞が名詞を後ろから説明する形 セットA",
+      "focus": 4,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "The documents signed by the manager were sent to the client.",
+          "question": "空欄に入る語句はどれですか？\nThe documents ___ by the manager were sent to the client.",
+          "choices": [
+            "A. were signed",
+            "B. sign",
+            "C. signed",
+            "D. signing"
+          ],
+          "correct": "C",
+          "why": "書類は「署名される」側なので過去分詞。文の動詞は were sent なので、were signed にすると動詞が2つになる。",
+          "contrast": "signed ＝ 署名された（される側）\nsigning ＝ 署名している（する側）",
+          "example": "The documents signed by the manager were sent to the client.\n部長が署名した書類が顧客に送られた。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        },
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "The woman working at the reception desk is our new receptionist.",
+          "question": "空欄に入る語句はどれですか？\nThe woman ___ at the reception desk is our new receptionist.",
+          "choices": [
+            "A. is working",
+            "B. worked",
+            "C. working",
+            "D. works"
+          ],
+          "correct": "C",
+          "why": "女性は「働いている」する側なので現在分詞 working。文の動詞は is。",
+          "contrast": "working ＝ 働いている（する側）\nis working にすると動詞が2つになる",
+          "example": "The woman working at the reception desk is our new receptionist.\n受付で働いている女性は新しい受付係だ。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        },
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "All products made in this factory are checked twice.",
+          "question": "空欄に入る語句はどれですか？\nAll products ___ in this factory are checked twice.",
+          "choices": [
+            "A. making",
+            "B. made",
+            "C. make",
+            "D. are made"
+          ],
+          "correct": "B",
+          "why": "製品は「作られる」側なので過去分詞 made。",
+          "contrast": "made ＝ 作られた\nmaking ＝ 作っている",
+          "example": "All products made in this factory are checked twice.\nこの工場で作られた製品はすべて2回検査される。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        },
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "Employees wishing to attend the seminar should register by Friday.",
+          "question": "空欄に入る語句はどれですか？\nEmployees ___ to attend the seminar should register by Friday.",
+          "choices": [
+            "A. wished",
+            "B. are wishing",
+            "C. wishing",
+            "D. wish"
+          ],
+          "correct": "C",
+          "why": "社員は「希望する」する側なので現在分詞 wishing。文の動詞は should register。",
+          "contrast": "wishing ＝ 希望している（する側）\nwished ＝ 希望された（される側）",
+          "example": "Employees wishing to attend the seminar should register by Friday.\nセミナーへの参加を希望する社員は、金曜日までに登録してください。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        },
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "The report submitted last week contained several errors.",
+          "question": "空欄に入る語句はどれですか？\nThe report ___ last week contained several errors.",
+          "choices": [
+            "A. submits",
+            "B. was submitted",
+            "C. submitting",
+            "D. submitted"
+          ],
+          "correct": "D",
+          "why": "報告書は「提出される」側なので過去分詞。文の動詞は contained。",
+          "contrast": "submitted ＝ 提出された\nwas submitted にすると動詞が2つになる",
+          "example": "The report submitted last week contained several errors.\n先週提出された報告書には誤りがいくつかあった。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        },
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "Passengers waiting for Flight 207 should go to Gate 12.",
+          "question": "空欄に入る語句はどれですか？\nPassengers ___ for Flight 207 should go to Gate 12.",
+          "choices": [
+            "A. are waiting",
+            "B. waiting",
+            "C. wait",
+            "D. waited"
+          ],
+          "correct": "B",
+          "why": "乗客は「待っている」する側なので現在分詞 waiting。",
+          "contrast": "waiting ＝ 待っている\nwait（原形）は名詞の後ろに置けない",
+          "example": "Passengers waiting for Flight 207 should go to Gate 12.\n207便をお待ちの乗客は12番ゲートへお進みください。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        },
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "The items listed in the catalog are available online.",
+          "question": "空欄に入る語句はどれですか？\nThe items ___ in the catalog are available online.",
+          "choices": [
+            "A. listing",
+            "B. are listed",
+            "C. list",
+            "D. listed"
+          ],
+          "correct": "D",
+          "why": "品物は「載せられる」側なので過去分詞 listed。",
+          "contrast": "listed ＝ 載せられた\nlisting ＝ 載せている",
+          "example": "The items listed in the catalog are available online.\nカタログに載っている品物はネットで買える。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        },
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "We received many comments praising the new design.",
+          "question": "空欄に入る語句はどれですか？\nWe received many comments ___ the new design.",
+          "choices": [
+            "A. praise",
+            "B. are praising",
+            "C. praising",
+            "D. praised"
+          ],
+          "correct": "C",
+          "why": "コメントが「ほめる」する側なので現在分詞 praising。後ろに目的語 the new design があることも手がかり。",
+          "contrast": "praising + 目的語 ＝ 〜をほめている\npraised ＝ ほめられた（後ろに目的語が来ない）",
+          "example": "We received many comments praising the new design.\n新しいデザインをほめるコメントがたくさん届いた。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        },
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "The meeting room located on the third floor is under renovation.",
+          "question": "空欄に入る語句はどれですか？\nThe meeting room ___ on the third floor is under renovation.",
+          "choices": [
+            "A. locates",
+            "B. is located",
+            "C. located",
+            "D. locating"
+          ],
+          "correct": "C",
+          "why": "be located ＝ 〜にある。名詞の後ろでは located だけを残す。",
+          "contrast": "located ＝ 位置している（場所の説明の決まり文句）\nis located にすると動詞が2つになる",
+          "example": "The meeting room located on the third floor is under renovation.\n3階にある会議室は改装中だ。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        },
+        {
+          "kind": "new",
+          "domain": 4,
+          "topic": "分詞が名詞を後ろから説明する形",
+          "say": "Customers showing a receipt can get a full refund.",
+          "question": "空欄に入る語句はどれですか？\nCustomers ___ a receipt can get a full refund.",
+          "choices": [
+            "A. showing",
+            "B. are showing",
+            "C. shown",
+            "D. show"
+          ],
+          "correct": "A",
+          "why": "客が領収書を「見せる」する側で、後ろに目的語 a receipt があるので現在分詞。",
+          "contrast": "showing + 目的語 ＝ 〜を見せている\nshown ＝ 見せられた",
+          "example": "Customers showing a receipt can get a full refund.\n領収書を見せたお客様は全額返金を受けられます。",
+          "explanation": "この単元のまとめ\n名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "w-d4",
+      "label": "単語 セット4",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "renovation",
+          "word": "renovation",
+          "say": "The lobby is under renovation.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 遅れ",
+            "B. 本社",
+            "C. 改装",
+            "D. 調査・アンケート"
+          ],
+          "correct": "C",
+          "why": "renovation（名）＝ 改装",
+          "contrast": "本社 ＝ headquarters\n調査・アンケート ＝ survey\n遅れ ＝ delay",
+          "example": "The lobby is under renovation.\nロビーは改装中だ。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "construction",
+          "word": "construction",
+          "say": "Construction of the new bridge began in May.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 顧客・取引先",
+            "B. 施設",
+            "C. 工事・建設",
+            "D. 保守点検"
+          ],
+          "correct": "C",
+          "why": "construction（名）＝ 工事・建設",
+          "contrast": "施設 ＝ facility\n保守点検 ＝ maintenance\n顧客・取引先 ＝ client",
+          "example": "Construction of the new bridge began in May.\n新しい橋の工事は5月に始まった。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "venue",
+          "word": "venue",
+          "say": "The venue for the conference has changed.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 会場",
+            "B. 利益",
+            "C. 候補者",
+            "D. 会議・協議会"
+          ],
+          "correct": "A",
+          "why": "venue（名）＝ 会場",
+          "contrast": "候補者 ＝ candidate\n会議・協議会 ＝ conference\n利益 ＝ profit",
+          "example": "The venue for the conference has changed.\n会議の会場が変わった。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "attendee",
+          "word": "attendee",
+          "say": "Each attendee will receive a name tag.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 出席者",
+            "B. 本社",
+            "C. 資格",
+            "D. 予約"
+          ],
+          "correct": "A",
+          "why": "attendee（名）＝ 出席者",
+          "contrast": "予約 ＝ reservation\n資格 ＝ qualification\n本社 ＝ headquarters",
+          "example": "Each attendee will receive a name tag.\n出席者はそれぞれ名札を受け取る。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "agenda",
+          "word": "agenda",
+          "say": "Let's look at the first item on the agenda.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 同僚",
+            "B. 改装",
+            "C. 議題・予定表",
+            "D. 物件・不動産"
+          ],
+          "correct": "C",
+          "why": "agenda（名）＝ 議題・予定表",
+          "contrast": "物件・不動産 ＝ property\n改装 ＝ renovation\n同僚 ＝ colleague",
+          "example": "Let's look at the first item on the agenda.\n議題の最初の項目を見ましょう。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "minutes",
+          "word": "minutes",
+          "say": "Could you take the minutes today?",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 内線・延長",
+            "B. 議事録",
+            "C. 本社",
+            "D. 同僚"
+          ],
+          "correct": "B",
+          "why": "minutes（名）＝ 議事録",
+          "contrast": "本社 ＝ headquarters\n内線・延長 ＝ extension\n同僚 ＝ colleague",
+          "example": "Could you take the minutes today?\n今日の議事録をとってもらえますか？"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "conference",
+          "word": "conference",
+          "say": "She will speak at an international conference.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 会議・協議会",
+            "B. 工事・建設",
+            "C. （図書館・店などの）利用客",
+            "D. 旅程（表）"
+          ],
+          "correct": "A",
+          "why": "conference（名）＝ 会議・協議会",
+          "contrast": "工事・建設 ＝ construction\n旅程（表） ＝ itinerary\n（図書館・店などの）利用客 ＝ patron",
+          "example": "She will speak at an international conference.\n彼女は国際会議で講演する。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "reservation",
+          "word": "reservation",
+          "say": "I'd like to make a reservation for two.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 予約",
+            "B. 支店",
+            "C. 定期購読・利用契約",
+            "D. 工事・建設"
+          ],
+          "correct": "A",
+          "why": "reservation（名）＝ 予約",
+          "contrast": "定期購読・利用契約 ＝ subscription\n支店 ＝ branch\n工事・建設 ＝ construction",
+          "example": "I'd like to make a reservation for two.\n2名で予約したいのですが。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "itinerary",
+          "word": "itinerary",
+          "say": "I'll e-mail you the itinerary for the trip.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 発送品・発送",
+            "B. 出発",
+            "C. 旅程（表）",
+            "D. 合併"
+          ],
+          "correct": "C",
+          "why": "itinerary（名）＝ 旅程（表）",
+          "contrast": "発送品・発送 ＝ shipment\n合併 ＝ merger\n出発 ＝ departure",
+          "example": "I'll e-mail you the itinerary for the trip.\n出張の旅程表をメールで送ります。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "accommodation",
+          "word": "accommodation",
+          "say": "Accommodation is included in the price.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 予算",
+            "B. 在庫",
+            "C. 宿泊施設",
+            "D. 内線・延長"
+          ],
+          "correct": "C",
+          "why": "accommodation（名）＝ 宿泊施設",
+          "contrast": "内線・延長 ＝ extension\n予算 ＝ budget\n在庫 ＝ inventory",
+          "example": "Accommodation is included in the price.\n宿泊は料金に含まれている。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "g5-a",
+      "label": "文法 関係副詞（where / when / why） セットA",
+      "focus": 5,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "This is the town where I was born.",
+          "question": "空欄に入る語句はどれですか？\nThis is the town ___ I was born.",
+          "choices": [
+            "A. where",
+            "B. when",
+            "C. which",
+            "D. what"
+          ],
+          "correct": "A",
+          "why": "後ろの I was born は文として完成している（欠けている名詞がない）ので関係副詞。場所なので where。",
+          "contrast": "where ＋ 完成した文\nwhich ＋ 名詞が欠けた文",
+          "example": "This is the town where I was born.\nここは私が生まれた町だ。",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        },
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "This is the town which I visited last year.",
+          "question": "空欄に入る語句はどれですか？\nThis is the town ___ I visited last year.",
+          "choices": [
+            "A. when",
+            "B. why",
+            "C. which",
+            "D. where"
+          ],
+          "correct": "C",
+          "why": "visited の目的語（何を訪れたか）が欠けているので関係代名詞 which。",
+          "contrast": "I visited ___ ← 目的語が欠けている → which\nI was born ← 完成している → where",
+          "example": "This is the town which I visited last year.\nここは私が昨年訪れた町だ。",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        },
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "Do you remember the day when we first met?",
+          "question": "空欄に入る語句はどれですか？\nDo you remember the day ___ we first met?",
+          "choices": [
+            "A. which",
+            "B. what",
+            "C. where",
+            "D. when"
+          ],
+          "correct": "D",
+          "why": "後ろの we first met は完成した文。時を表す the day なので when。",
+          "contrast": "when ＝ 時\nwhere ＝ 場所",
+          "example": "Do you remember the day when we first met?\n私たちが初めて会った日を覚えていますか？",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        },
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "That's the reason why she left the company.",
+          "question": "空欄に入る語句はどれですか？\nThat's the reason ___ she left the company.",
+          "choices": [
+            "A. which",
+            "B. where",
+            "C. what",
+            "D. why"
+          ],
+          "correct": "D",
+          "why": "後ろの she left the company は完成した文。the reason なので why。",
+          "contrast": "the reason why ＋ 完成した文\nwhich は後ろに名詞が欠けているときだけ",
+          "example": "That's the reason why she left the company.\nそれが彼女が会社を辞めた理由だ。",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        },
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "The hotel where we stayed was near the station.",
+          "question": "空欄に入る語句はどれですか？\nThe hotel ___ we stayed was near the station.",
+          "choices": [
+            "A. where",
+            "B. what",
+            "C. when",
+            "D. which"
+          ],
+          "correct": "A",
+          "why": "stay は目的語をとらない（stay at a hotel）。we stayed は完成した文なので where。",
+          "contrast": "we stayed（完成）→ where\nwe booked ___（目的語が欠けている）→ which",
+          "example": "The hotel where we stayed was near the station.\n私たちが泊まったホテルは駅の近くだった。",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        },
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "The hotel which we booked was near the station.",
+          "question": "空欄に入る語句はどれですか？\nThe hotel ___ we booked was near the station.",
+          "choices": [
+            "A. where",
+            "B. which",
+            "C. why",
+            "D. when"
+          ],
+          "correct": "B",
+          "why": "book は目的語をとる動詞で、何を予約したかが欠けているので which。",
+          "contrast": "booked ___ ← 目的語が欠けている → which\nstayed ← 完成している → where",
+          "example": "The hotel which we booked was near the station.\n私たちが予約したホテルは駅の近くだった。",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        },
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "Friday is the day when the report is due.",
+          "question": "空欄に入る語句はどれですか？\nFriday is the day ___ the report is due.",
+          "choices": [
+            "A. where",
+            "B. which",
+            "C. when",
+            "D. what"
+          ],
+          "correct": "C",
+          "why": "the report is due は完成した文。時を表す the day なので when。",
+          "contrast": "when ＝ 時\nwhich は名詞が欠けた文の前",
+          "example": "Friday is the day when the report is due.\n金曜日が報告書の締め切りの日だ。",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        },
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "The office where I work has a great view.",
+          "question": "空欄に入る語句はどれですか？\nThe office ___ I work has a great view.",
+          "choices": [
+            "A. when",
+            "B. where",
+            "C. what",
+            "D. which"
+          ],
+          "correct": "B",
+          "why": "I work は完成した文（work は目的語をとらない）。場所なので where。",
+          "contrast": "I work（完成）→ where\nI rent ___（目的語が欠けている）→ which",
+          "example": "The office where I work has a great view.\n私が働いている事務所は眺めがよい。",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        },
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "This is the restaurant which is famous for its pasta.",
+          "question": "空欄に入る語句はどれですか？\nThis is the restaurant ___ is famous for its pasta.",
+          "choices": [
+            "A. why",
+            "B. where",
+            "C. when",
+            "D. which"
+          ],
+          "correct": "D",
+          "why": "後ろの ___ is famous は主語が欠けているので関係代名詞 which。場所の名詞でも where にはならない。",
+          "contrast": "主語が欠けている → which / that\n完成した文 → where",
+          "example": "This is the restaurant which is famous for its pasta.\nここはパスタで有名なレストランだ。",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        },
+        {
+          "kind": "new",
+          "domain": 5,
+          "topic": "関係副詞（where / when / why）",
+          "say": "Nobody knows the reason why the meeting was canceled.",
+          "question": "空欄に入る語句はどれですか？\nNobody knows the reason ___ the meeting was canceled.",
+          "choices": [
+            "A. which",
+            "B. why",
+            "C. where",
+            "D. what"
+          ],
+          "correct": "B",
+          "why": "the meeting was canceled は完成した文。the reason なので why。",
+          "contrast": "the reason why ＋ 完成した文\nwhat は前に名詞（the reason）があるときは使えない",
+          "example": "Nobody knows the reason why the meeting was canceled.\n会議が中止になった理由を誰も知らない。",
+          "explanation": "この単元のまとめ\n関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "w-a5",
+      "label": "単語 セット5",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "departure",
+          "word": "departure",
+          "say": "The departure time has been changed to 3 P.M.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 予算",
+            "B. 合併",
+            "C. 契約（書）",
+            "D. 出発"
+          ],
+          "correct": "D",
+          "why": "departure（名）＝ 出発",
+          "contrast": "契約（書） ＝ contract\n合併 ＝ merger\n予算 ＝ budget",
+          "example": "The departure time has been changed to 3 P.M.\n出発時刻は午後3時に変わった。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "delay",
+          "word": "delay",
+          "say": "We apologize for the delay.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 領収書",
+            "B. 旅程（表）",
+            "C. 遅れ",
+            "D. 本社"
+          ],
+          "correct": "C",
+          "why": "delay（名）＝ 遅れ",
+          "contrast": "領収書 ＝ receipt\n本社 ＝ headquarters\n旅程（表） ＝ itinerary",
+          "example": "We apologize for the delay.\n遅れてしまい申し訳ありません。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "shipment",
+          "word": "shipment",
+          "say": "The shipment will arrive on Thursday.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 発送品・発送",
+            "B. 工事・建設",
+            "C. （図書館・店などの）利用客",
+            "D. 顧客・取引先"
+          ],
+          "correct": "A",
+          "why": "shipment（名）＝ 発送品・発送",
+          "contrast": "（図書館・店などの）利用客 ＝ patron\n顧客・取引先 ＝ client\n工事・建設 ＝ construction",
+          "example": "The shipment will arrive on Thursday.\n発送品は木曜日に届く。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "delivery",
+          "word": "delivery",
+          "say": "Delivery is free for orders over $50.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 配達",
+            "B. 倉庫",
+            "C. 調査・アンケート",
+            "D. 出席者"
+          ],
+          "correct": "A",
+          "why": "delivery（名）＝ 配達",
+          "contrast": "倉庫 ＝ warehouse\n出席者 ＝ attendee\n調査・アンケート ＝ survey",
+          "example": "Delivery is free for orders over $50.\n50ドル以上の注文は配達無料です。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "inventory",
+          "word": "inventory",
+          "say": "We check our inventory every Friday.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 機器・設備（数えられない）",
+            "B. 会議・協議会",
+            "C. 在庫",
+            "D. 領収書"
+          ],
+          "correct": "C",
+          "why": "inventory（名）＝ 在庫",
+          "contrast": "機器・設備（数えられない） ＝ equipment\n領収書 ＝ receipt\n会議・協議会 ＝ conference",
+          "example": "We check our inventory every Friday.\n毎週金曜日に在庫を確認する。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "warehouse",
+          "word": "warehouse",
+          "say": "The boxes are stored in the warehouse.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 出席者",
+            "B. 在庫",
+            "C. 改装",
+            "D. 倉庫"
+          ],
+          "correct": "D",
+          "why": "warehouse（名）＝ 倉庫",
+          "contrast": "出席者 ＝ attendee\n在庫 ＝ inventory\n改装 ＝ renovation",
+          "example": "The boxes are stored in the warehouse.\n箱は倉庫に保管されている。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "supplier",
+          "word": "supplier",
+          "say": "We are looking for a new supplier.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 苦情",
+            "B. 仕入れ先",
+            "C. 回り道",
+            "D. 予約"
+          ],
+          "correct": "B",
+          "why": "supplier（名）＝ 仕入れ先",
+          "contrast": "苦情 ＝ complaint\n予約 ＝ reservation\n回り道 ＝ detour",
+          "example": "We are looking for a new supplier.\n新しい仕入れ先を探している。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "client",
+          "word": "client",
+          "say": "I have a meeting with a client at ten.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 入居者・テナント",
+            "B. 収益・売上",
+            "C. 顧客・取引先",
+            "D. 出発"
+          ],
+          "correct": "C",
+          "why": "client（名）＝ 顧客・取引先",
+          "contrast": "出発 ＝ departure\n入居者・テナント ＝ tenant\n収益・売上 ＝ revenue",
+          "example": "I have a meeting with a client at ten.\n10時に取引先と打ち合わせがある。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "contract",
+          "word": "contract",
+          "say": "Please sign the contract and return it.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 契約（書）",
+            "B. 領収書",
+            "C. 出発",
+            "D. 資格"
+          ],
+          "correct": "A",
+          "why": "contract（名）＝ 契約（書）",
+          "contrast": "出発 ＝ departure\n資格 ＝ qualification\n領収書 ＝ receipt",
+          "example": "Please sign the contract and return it.\n契約書に署名して返送してください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "negotiate",
+          "word": "negotiate",
+          "say": "We negotiated a lower price with the supplier.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 交渉する",
+            "B. 交換する・取り替える",
+            "C. 期限が切れる",
+            "D. 知らせる"
+          ],
+          "correct": "A",
+          "why": "negotiate（動）＝ 交渉する",
+          "contrast": "期限が切れる ＝ expire\n知らせる ＝ notify\n交換する・取り替える ＝ replace",
+          "example": "We negotiated a lower price with the supplier.\n仕入れ先と値下げを交渉した。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "g6-a",
+      "label": "文法 仮定法（過去・過去完了） セットA",
+      "focus": 6,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "If I had known about the sale, I would have bought more.",
+          "question": "空欄に入る語句はどれですか？\nIf I had known about the sale, I ___ more.",
+          "choices": [
+            "A. would have bought",
+            "B. will buy",
+            "C. would buy",
+            "D. had bought"
+          ],
+          "correct": "A",
+          "why": "If 節が had known（過去の事実の反対）なので、結論は would have + 過去分詞。",
+          "contrast": "If had 過去分詞 → would have 過去分詞（過去の反対）\nIf 過去形 → would 原形（今の反対）",
+          "example": "If I had known about the sale, I would have bought more.\nセールを知っていたら、もっと買ったのに。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        },
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "If I had more time, I would study abroad.",
+          "question": "空欄に入る語句はどれですか？\nIf I ___ more time, I would study abroad.",
+          "choices": [
+            "A. have",
+            "B. had",
+            "C. will have",
+            "D. had had"
+          ],
+          "correct": "B",
+          "why": "結論が would study（今の事実の反対）なので、If 節は過去形 had。",
+          "contrast": "今の反対 → If 過去形\n過去の反対 → If had 過去分詞",
+          "example": "If I had more time, I would study abroad.\nもっと時間があれば、留学するのに。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        },
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "If we had left earlier, we would have caught the train.",
+          "question": "空欄に入る語句はどれですか？\nIf we had left earlier, we ___ the train.",
+          "choices": [
+            "A. would catch",
+            "B. will catch",
+            "C. would have caught",
+            "D. had caught"
+          ],
+          "correct": "C",
+          "why": "If 節が had left なので、結論は would have caught。",
+          "contrast": "would have caught ＝ 間に合ったのに（過去）\nwould catch ＝ 間に合うのに（今）",
+          "example": "If we had left earlier, we would have caught the train.\nもっと早く出ていたら、電車に間に合ったのに。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        },
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "If she had received the e-mail, she would have replied.",
+          "question": "空欄に入る語句はどれですか？\nIf she ___ the e-mail, she would have replied.",
+          "choices": [
+            "A. had received",
+            "B. received",
+            "C. receives",
+            "D. has received"
+          ],
+          "correct": "A",
+          "why": "結論が would have replied（過去の反対）なので、If 節は had + 過去分詞。",
+          "contrast": "結論が would have → If は had 過去分詞\n結論が would 原形 → If は過去形",
+          "example": "If she had received the e-mail, she would have replied.\nメールを受け取っていたら、彼女は返信しただろう。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        },
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "Had we received the report earlier, we could have fixed the error.",
+          "question": "空欄に入る語句はどれですか？\n___ the report earlier, we could have fixed the error.",
+          "choices": [
+            "A. We had received",
+            "B. If we received",
+            "C. Were we received",
+            "D. Had we received"
+          ],
+          "correct": "D",
+          "why": "If we had received の if を省くと、had が前に出て Had we received になる（倒置）。",
+          "contrast": "Had we received ＝ If we had received\nIf we received は今の反対で、could have と合わない",
+          "example": "Had we received the report earlier, we could have fixed the error.\n報告書をもっと早く受け取っていたら、誤りを直せたのに。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        },
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "If I were you, I would accept the offer.",
+          "question": "空欄に入る語句はどれですか？\nIf I were you, I ___ the offer.",
+          "choices": [
+            "A. would accept",
+            "B. would have accepted",
+            "C. accepted",
+            "D. will accept"
+          ],
+          "correct": "A",
+          "why": "If I were you は今の事実の反対なので、結論は would + 原形。",
+          "contrast": "If I were you → would 原形\nwould have accepted は過去の反対",
+          "example": "If I were you, I would accept the offer.\n私があなたなら、その申し出を受けるだろう。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        },
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "I wish I had studied harder when I was a student.",
+          "question": "空欄に入る語句はどれですか？\nI wish I ___ harder when I was a student.",
+          "choices": [
+            "A. have studied",
+            "B. had studied",
+            "C. studied",
+            "D. would study"
+          ],
+          "correct": "B",
+          "why": "学生のころ（過去）への後悔なので、I wish + had + 過去分詞。",
+          "contrast": "I wish + had 過去分詞 ＝ 過去への後悔\nI wish + 過去形 ＝ 今の願い",
+          "example": "I wish I had studied harder when I was a student.\n学生のころもっと勉強しておけばよかった。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        },
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "I wish I had a car now.",
+          "question": "空欄に入る語句はどれですか？\nI wish I ___ a car now.",
+          "choices": [
+            "A. have",
+            "B. had",
+            "C. will have",
+            "D. had had"
+          ],
+          "correct": "B",
+          "why": "now があり、今の事実の反対なので I wish + 過去形。",
+          "contrast": "I wish + 過去形 ＝ 今\nI wish + had 過去分詞 ＝ 過去",
+          "example": "I wish I had a car now.\n今、車を持っていたらいいのに。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        },
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "If the weather had been better yesterday, the event would have been held outdoors.",
+          "question": "空欄に入る語句はどれですか？\nIf the weather ___ better yesterday, the event would have been held outdoors.",
+          "choices": [
+            "A. were",
+            "B. has been",
+            "C. had been",
+            "D. was"
+          ],
+          "correct": "C",
+          "why": "yesterday と would have been から、過去の事実の反対。If 節は had been。",
+          "contrast": "had been ＝ 過去の反対\nwere ＝ 今の反対",
+          "example": "If the weather had been better yesterday, the event would have been held outdoors.\n昨日天気がよければ、行事は屋外で開かれただろう。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        },
+        {
+          "kind": "new",
+          "domain": 6,
+          "topic": "仮定法（過去・過去完了）",
+          "say": "If he were here now, he would help us.",
+          "question": "空欄に入る語句はどれですか？\nIf he ___ here now, he would help us.",
+          "choices": [
+            "A. had been",
+            "B. is",
+            "C. were",
+            "D. will be"
+          ],
+          "correct": "C",
+          "why": "now があり今の事実の反対なので、be 動詞は were（主語が he でも were が正式）。",
+          "contrast": "were ＝ 今の反対\nhad been ＝ 過去の反対",
+          "example": "If he were here now, he would help us.\n彼が今ここにいたら、手伝ってくれるだろう。",
+          "explanation": "この単元のまとめ\n事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "w-b6",
+      "label": "単語 セット6",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "proposal",
+          "word": "proposal",
+          "say": "The board accepted her proposal.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 提案（書）",
+            "B. 候補者",
+            "C. 出席者",
+            "D. 上司"
+          ],
+          "correct": "A",
+          "why": "proposal（名）＝ 提案（書）",
+          "contrast": "候補者 ＝ candidate\n出席者 ＝ attendee\n上司 ＝ supervisor",
+          "example": "The board accepted her proposal.\n役員会は彼女の提案を受け入れた。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "revenue",
+          "word": "revenue",
+          "say": "Revenue increased by 10 percent this year.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 見積もり",
+            "B. 宿泊施設",
+            "C. 収益・売上",
+            "D. 定期購読・利用契約"
+          ],
+          "correct": "C",
+          "why": "revenue（名）＝ 収益・売上",
+          "contrast": "定期購読・利用契約 ＝ subscription\n宿泊施設 ＝ accommodation\n見積もり ＝ estimate",
+          "example": "Revenue increased by 10 percent this year.\n今年は売上が10%増えた。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "profit",
+          "word": "profit",
+          "say": "The company made a large profit.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 予算",
+            "B. 見積もり",
+            "C. 保証（書）",
+            "D. 利益"
+          ],
+          "correct": "D",
+          "why": "profit（名）＝ 利益",
+          "contrast": "見積もり ＝ estimate\n保証（書） ＝ warranty\n予算 ＝ budget",
+          "example": "The company made a large profit.\nその会社は大きな利益を上げた。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "merger",
+          "word": "merger",
+          "say": "The merger will be completed next year.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 施設",
+            "B. 見積もり",
+            "C. 合併",
+            "D. 割引"
+          ],
+          "correct": "C",
+          "why": "merger（名）＝ 合併",
+          "contrast": "施設 ＝ facility\n見積もり ＝ estimate\n割引 ＝ discount",
+          "example": "The merger will be completed next year.\n合併は来年完了する。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "acquire",
+          "word": "acquire",
+          "say": "The firm acquired a small software company.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 宣伝する・広告する",
+            "B. 採用する",
+            "C. 期限が切れる",
+            "D. 買収する・手に入れる"
+          ],
+          "correct": "D",
+          "why": "acquire（動）＝ 買収する・手に入れる",
+          "contrast": "採用する ＝ recruit\n宣伝する・広告する ＝ advertise\n期限が切れる ＝ expire",
+          "example": "The firm acquired a small software company.\nその会社は小さなソフトウェア会社を買収した。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "launch",
+          "word": "launch",
+          "say": "We will launch the new product in June.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 減らす",
+            "B. 移転する",
+            "C. 手伝う",
+            "D. 発売する・始める"
+          ],
+          "correct": "D",
+          "why": "launch（動）＝ 発売する・始める",
+          "contrast": "減らす ＝ reduce\n移転する ＝ relocate\n手伝う ＝ assist",
+          "example": "We will launch the new product in June.\n6月に新製品を発売する。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "advertise",
+          "word": "advertise",
+          "say": "The job was advertised online.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 宣伝する・広告する",
+            "B. 更新する",
+            "C. 退職する",
+            "D. 交渉する"
+          ],
+          "correct": "A",
+          "why": "advertise（動）＝ 宣伝する・広告する",
+          "contrast": "交渉する ＝ negotiate\n更新する ＝ renew\n退職する ＝ retire",
+          "example": "The job was advertised online.\nその求人はネットで広告された。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "survey",
+          "word": "survey",
+          "say": "Please take a few minutes to complete the survey.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 施設",
+            "B. 調査・アンケート",
+            "C. 配達",
+            "D. 定期購読・利用契約"
+          ],
+          "correct": "B",
+          "why": "survey（名）＝ 調査・アンケート",
+          "contrast": "配達 ＝ delivery\n施設 ＝ facility\n定期購読・利用契約 ＝ subscription",
+          "example": "Please take a few minutes to complete the survey.\n数分でアンケートに答えてください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "feedback",
+          "word": "feedback",
+          "say": "Thank you for your feedback.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 意見・感想（数えられない）",
+            "B. 配達",
+            "C. 出席者",
+            "D. 施設"
+          ],
+          "correct": "A",
+          "why": "feedback（名）＝ 意見・感想（数えられない）",
+          "contrast": "配達 ＝ delivery\n出席者 ＝ attendee\n施設 ＝ facility",
+          "example": "Thank you for your feedback.\nご意見ありがとうございます。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "complaint",
+          "word": "complaint",
+          "say": "We received a complaint about the noise.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 苦情",
+            "B. （図書館・店などの）利用客",
+            "C. 支店",
+            "D. 部署"
+          ],
+          "correct": "A",
+          "why": "complaint（名）＝ 苦情",
+          "contrast": "部署 ＝ department\n（図書館・店などの）利用客 ＝ patron\n支店 ＝ branch",
+          "example": "We received a complaint about the noise.\n騒音について苦情を受けた。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "g7-a",
+      "label": "文法 数えられない名詞 セットA",
+      "focus": 7,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "She gave me some useful advice.",
+          "question": "空欄に入る語句はどれですか？\nShe gave me some useful ___.",
+          "choices": [
+            "A. an advice",
+            "B. advise",
+            "C. advices",
+            "D. advice"
+          ],
+          "correct": "D",
+          "why": "advice は数えられない名詞なので s も an も付かない。advise は動詞。",
+          "contrast": "advice ＝ 名詞（数えられない）\nadvise ＝ 動詞（助言する）",
+          "example": "She gave me some useful advice.\n彼女は役に立つ助言をくれた。",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        },
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "For more information, please visit our Web site.",
+          "question": "空欄に入る語句はどれですか？\nFor more ___, please visit our Web site.",
+          "choices": [
+            "A. information",
+            "B. informing",
+            "C. an information",
+            "D. informations"
+          ],
+          "correct": "A",
+          "why": "information は数えられない名詞で、s が付かない。",
+          "contrast": "information（数えられない）\na fact / facts（数えられる）",
+          "example": "For more information, please visit our Web site.\n詳しくは当社のウェブサイトをご覧ください。",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        },
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "The new office equipment will arrive on Monday.",
+          "question": "空欄に入る語句はどれですか？\nThe new office ___ will arrive on Monday.",
+          "choices": [
+            "A. equipment",
+            "B. equipments",
+            "C. an equipment",
+            "D. equip"
+          ],
+          "correct": "A",
+          "why": "equipment は数えられない名詞で、s が付かない。equip は動詞。",
+          "contrast": "equipment（数えられない）\na machine / machines（数えられる）",
+          "example": "The new office equipment will arrive on Monday.\n新しい事務機器は月曜日に届く。",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        },
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "We need to buy some furniture for the new office.",
+          "question": "空欄に入る語句はどれですか？\nWe need to buy some ___ for the new office.",
+          "choices": [
+            "A. a furniture",
+            "B. furniture",
+            "C. furnitures",
+            "D. furnish"
+          ],
+          "correct": "B",
+          "why": "furniture は数えられない名詞。数えるときは a piece of furniture。",
+          "contrast": "furniture（数えられない）\na chair / chairs（数えられる）",
+          "example": "We need to buy some furniture for the new office.\n新しい事務所のために家具を買う必要がある。",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        },
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "How much luggage do you have?",
+          "question": "空欄に入る語句はどれですか？\nHow ___ luggage do you have?",
+          "choices": [
+            "A. many",
+            "B. a few",
+            "C. much",
+            "D. few"
+          ],
+          "correct": "C",
+          "why": "luggage は数えられない名詞なので、量を聞くときは much。",
+          "contrast": "much ＋ 数えられない名詞\nmany ＋ 数えられる名詞の複数形",
+          "example": "How much luggage do you have?\n荷物はどのくらいありますか？",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        },
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "Thank you for your feedback on the survey.",
+          "question": "空欄に入る語句はどれですか？\nThank you for your ___ on the survey.",
+          "choices": [
+            "A. feeding",
+            "B. feedbacks",
+            "C. a feedback",
+            "D. feedback"
+          ],
+          "correct": "D",
+          "why": "feedback は数えられない名詞で、s が付かない。",
+          "contrast": "feedback（数えられない）\na comment / comments（数えられる）",
+          "example": "Thank you for your feedback on the survey.\nアンケートへのご意見ありがとうございます。",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        },
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "I have some good news for you.",
+          "question": "空欄に入る語句はどれですか？\nI have ___ news for you.",
+          "choices": [
+            "A. a few good",
+            "B. a good",
+            "C. some good",
+            "D. many good"
+          ],
+          "correct": "C",
+          "why": "news は s で終わるが数えられない名詞。a や many は付かず、some なら使える。",
+          "contrast": "news（数えられない・単数扱い）\nmany / a few は数えられる名詞にだけ使う",
+          "example": "I have some good news for you.\nあなたによい知らせがあります。",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        },
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "Let me give you a piece of advice.",
+          "question": "空欄に入る語句はどれですか？\nLet me give you a piece of ___.",
+          "choices": [
+            "A. advise",
+            "B. advices",
+            "C. an advice",
+            "D. advice"
+          ],
+          "correct": "D",
+          "why": "数えられない名詞は a piece of で数える。a piece of advice。",
+          "contrast": "a piece of advice ＝ 1つの助言\nadvise は動詞",
+          "example": "Let me give you a piece of advice.\nひとつ助言させてください。",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        },
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "The store sells a wide range of merchandise.",
+          "question": "空欄に入る語句はどれですか？\nThe store sells a wide range of ___.",
+          "choices": [
+            "A. merchandise",
+            "B. a merchandise",
+            "C. merchant",
+            "D. merchandises"
+          ],
+          "correct": "A",
+          "why": "merchandise（商品）は数えられない名詞で、s が付かない。merchant は「商人」。",
+          "contrast": "merchandise（商品・数えられない）\nproducts（製品・数えられる）",
+          "example": "The store sells a wide range of merchandise.\nその店は幅広い商品を売っている。",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        },
+        {
+          "kind": "new",
+          "domain": 7,
+          "topic": "数えられない名詞",
+          "say": "There is too much equipment in this small room.",
+          "question": "空欄に入る語句はどれですか？\nThere is too ___ equipment in this small room.",
+          "choices": [
+            "A. many",
+            "B. few",
+            "C. a few",
+            "D. much"
+          ],
+          "correct": "D",
+          "why": "equipment は数えられない名詞なので much。動詞も There is（単数）になっている。",
+          "contrast": "too much ＋ 数えられない名詞\ntoo many ＋ 数えられる名詞の複数形",
+          "example": "There is too much equipment in this small room.\nこの小さな部屋には機器が多すぎる。",
+          "explanation": "この単元のまとめ\n日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "w-c7",
+      "label": "単語 セット7",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "warranty",
+          "word": "warranty",
+          "say": "The printer comes with a two-year warranty.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 上司",
+            "B. 会場",
+            "C. 保証（書）",
+            "D. 人事（部）・職員"
+          ],
+          "correct": "C",
+          "why": "warranty（名）＝ 保証（書）",
+          "contrast": "会場 ＝ venue\n人事（部）・職員 ＝ personnel\n上司 ＝ supervisor",
+          "example": "The printer comes with a two-year warranty.\nそのプリンターには2年保証が付いている。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "replace",
+          "word": "replace",
+          "say": "We will replace the broken item for free.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 承認する",
+            "B. 手配する",
+            "C. 延期する",
+            "D. 交換する・取り替える"
+          ],
+          "correct": "D",
+          "why": "replace（動）＝ 交換する・取り替える",
+          "contrast": "承認する ＝ approve\n手配する ＝ arrange\n延期する ＝ postpone",
+          "example": "We will replace the broken item for free.\n壊れた品物は無料で交換します。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "defective",
+          "word": "defective",
+          "say": "Please return any defective products.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 常勤の・永久の",
+            "B. 資格がある",
+            "C. 欠陥のある",
+            "D. 細心の注意を払った"
+          ],
+          "correct": "C",
+          "why": "defective（形）＝ 欠陥のある",
+          "contrast": "資格がある ＝ eligible\n細心の注意を払った ＝ meticulous\n常勤の・永久の ＝ permanent",
+          "example": "Please return any defective products.\n欠陥のある製品は返品してください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "discount",
+          "word": "discount",
+          "say": "Members get a 20 percent discount.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 部署",
+            "B. 割引",
+            "C. 定期購読・利用契約",
+            "D. 在庫"
+          ],
+          "correct": "B",
+          "why": "discount（名）＝ 割引",
+          "contrast": "在庫 ＝ inventory\n部署 ＝ department\n定期購読・利用契約 ＝ subscription",
+          "example": "Members get a 20 percent discount.\n会員は20%引きになる。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "complimentary",
+          "word": "complimentary",
+          "say": "Complimentary breakfast is served from 7 A.M.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 一時的な・臨時の",
+            "B. 無料の",
+            "C. 年に一度の",
+            "D. 常勤の・永久の"
+          ],
+          "correct": "B",
+          "why": "complimentary（形）＝ 無料の",
+          "contrast": "常勤の・永久の ＝ permanent\n年に一度の ＝ annual\n一時的な・臨時の ＝ temporary",
+          "example": "Complimentary breakfast is served from 7 A.M.\n無料の朝食は午前7時から出る。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "mandatory",
+          "word": "mandatory",
+          "say": "Attendance at the safety training is mandatory.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 欠陥のある",
+            "B. 定期的な・いつもの",
+            "C. 資格がある",
+            "D. 義務的な・必須の"
+          ],
+          "correct": "D",
+          "why": "mandatory（形）＝ 義務的な・必須の",
+          "contrast": "欠陥のある ＝ defective\n定期的な・いつもの ＝ routine\n資格がある ＝ eligible",
+          "example": "Attendance at the safety training is mandatory.\n安全研修への出席は必須だ。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "eligible",
+          "word": "eligible",
+          "say": "Full-time employees are eligible for the bonus.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 資格がある",
+            "B. 定期的な・いつもの",
+            "C. 義務的な・必須の",
+            "D. 年に一度の"
+          ],
+          "correct": "A",
+          "why": "eligible（形）＝ 資格がある",
+          "contrast": "定期的な・いつもの ＝ routine\n年に一度の ＝ annual\n義務的な・必須の ＝ mandatory",
+          "example": "Full-time employees are eligible for the bonus.\n正社員はボーナスを受け取る資格がある。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "temporary",
+          "word": "temporary",
+          "say": "We hired temporary staff for the holiday season.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 資格がある",
+            "B. 欠陥のある",
+            "C. 一時的な・臨時の",
+            "D. 定期的な・いつもの"
+          ],
+          "correct": "C",
+          "why": "temporary（形）＝ 一時的な・臨時の",
+          "contrast": "欠陥のある ＝ defective\n資格がある ＝ eligible\n定期的な・いつもの ＝ routine",
+          "example": "We hired temporary staff for the holiday season.\n繁忙期に臨時の職員を雇った。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "permanent",
+          "word": "permanent",
+          "say": "She was offered a permanent position.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 常勤の・永久の",
+            "B. 空いている",
+            "C. 義務的な・必須の",
+            "D. 年に一度の"
+          ],
+          "correct": "A",
+          "why": "permanent（形）＝ 常勤の・永久の",
+          "contrast": "年に一度の ＝ annual\n空いている ＝ vacant\n義務的な・必須の ＝ mandatory",
+          "example": "She was offered a permanent position.\n彼女は常勤の職を提示された。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "annual",
+          "word": "annual",
+          "say": "The annual meeting is held in March.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 資格がある",
+            "B. 年に一度の",
+            "C. 義務的な・必須の",
+            "D. 空いている"
+          ],
+          "correct": "B",
+          "why": "annual（形）＝ 年に一度の",
+          "contrast": "資格がある ＝ eligible\n空いている ＝ vacant\n義務的な・必須の ＝ mandatory",
+          "example": "The annual meeting is held in March.\n年次総会は3月に開かれる。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "w-d8",
+      "label": "単語 セット8",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "extend",
+          "word": "extend",
+          "say": "The store will extend its opening hours.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 移転する",
+            "B. 延長する",
+            "C. 確認する",
+            "D. 昇進させる"
+          ],
+          "correct": "B",
+          "why": "extend（動）＝ 延長する",
+          "contrast": "昇進させる ＝ promote\n確認する ＝ confirm\n移転する ＝ relocate",
+          "example": "The store will extend its opening hours.\nその店は営業時間を延長する。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "expire",
+          "word": "expire",
+          "say": "My passport expires next month.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 期限が切れる",
+            "B. 買収する・手に入れる",
+            "C. 交換する・取り替える",
+            "D. 宣伝する・広告する"
+          ],
+          "correct": "A",
+          "why": "expire（動）＝ 期限が切れる",
+          "contrast": "買収する・手に入れる ＝ acquire\n宣伝する・広告する ＝ advertise\n交換する・取り替える ＝ replace",
+          "example": "My passport expires next month.\nパスポートは来月期限が切れる。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "renew",
+          "word": "renew",
+          "say": "Don't forget to renew your membership.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 更新する",
+            "B. 移転する",
+            "C. 退職する",
+            "D. 承認する"
+          ],
+          "correct": "A",
+          "why": "renew（動）＝ 更新する",
+          "contrast": "移転する ＝ relocate\n退職する ＝ retire\n承認する ＝ approve",
+          "example": "Don't forget to renew your membership.\n会員資格の更新を忘れないでください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "register",
+          "word": "register",
+          "say": "You need to register for the workshop online.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 承認する",
+            "B. 検査する",
+            "C. 登録する",
+            "D. 減らす"
+          ],
+          "correct": "C",
+          "why": "register（動）＝ 登録する",
+          "contrast": "検査する ＝ inspect\n承認する ＝ approve\n減らす ＝ reduce",
+          "example": "You need to register for the workshop online.\n研修会にはネットで登録する必要がある。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "enroll",
+          "word": "enroll",
+          "say": "He enrolled in a business English course.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 出席する",
+            "B. 更新する",
+            "C. （講座などに）申し込む",
+            "D. 手配する"
+          ],
+          "correct": "C",
+          "why": "enroll（動）＝ （講座などに）申し込む",
+          "contrast": "出席する ＝ attend\n更新する ＝ renew\n手配する ＝ arrange",
+          "example": "He enrolled in a business English course.\n彼はビジネス英語の講座に申し込んだ。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "notify",
+          "word": "notify",
+          "say": "We will notify you when your order ships.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 移転する",
+            "B. 承認する",
+            "C. 問い合わせる",
+            "D. 知らせる"
+          ],
+          "correct": "D",
+          "why": "notify（動）＝ 知らせる",
+          "contrast": "移転する ＝ relocate\n承認する ＝ approve\n問い合わせる ＝ inquire",
+          "example": "We will notify you when your order ships.\n注文品の発送時にお知らせします。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "inquire",
+          "word": "inquire",
+          "say": "I'm calling to inquire about the job opening.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 手伝う",
+            "B. 手配する",
+            "C. 問い合わせる",
+            "D. 交換する・取り替える"
+          ],
+          "correct": "C",
+          "why": "inquire（動）＝ 問い合わせる",
+          "contrast": "手伝う ＝ assist\n手配する ＝ arrange\n交換する・取り替える ＝ replace",
+          "example": "I'm calling to inquire about the job opening.\n求人について問い合わせるためにお電話しました。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "assist",
+          "word": "assist",
+          "say": "Our staff will be happy to assist you.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 採用する",
+            "B. 手伝う",
+            "C. 退職する",
+            "D. 期限が切れる"
+          ],
+          "correct": "B",
+          "why": "assist（動）＝ 手伝う",
+          "contrast": "期限が切れる ＝ expire\n退職する ＝ retire\n採用する ＝ recruit",
+          "example": "Our staff will be happy to assist you.\n係の者が喜んでお手伝いします。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "attend",
+          "word": "attend",
+          "say": "About 200 people attended the seminar.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 延期する",
+            "B. 採用する",
+            "C. 承認する",
+            "D. 出席する"
+          ],
+          "correct": "D",
+          "why": "attend（動）＝ 出席する",
+          "contrast": "採用する ＝ recruit\n延期する ＝ postpone\n承認する ＝ approve",
+          "example": "About 200 people attended the seminar.\nセミナーには約200人が出席した。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "arrange",
+          "word": "arrange",
+          "say": "I'll arrange a taxi to the airport.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 手配する",
+            "B. 延期する",
+            "C. 買収する・手に入れる",
+            "D. 減らす"
+          ],
+          "correct": "A",
+          "why": "arrange（動）＝ 手配する",
+          "contrast": "買収する・手に入れる ＝ acquire\n延期する ＝ postpone\n減らす ＝ reduce",
+          "example": "I'll arrange a taxi to the airport.\n空港までのタクシーを手配します。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "w-a9",
+      "label": "単語 セット9",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "install",
+          "word": "install",
+          "say": "New lights will be installed next week.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 発売する・始める",
+            "B. 設置する・インストールする",
+            "C. 知らせる",
+            "D. 昇進させる"
+          ],
+          "correct": "B",
+          "why": "install（動）＝ 設置する・インストールする",
+          "contrast": "知らせる ＝ notify\n昇進させる ＝ promote\n発売する・始める ＝ launch",
+          "example": "New lights will be installed next week.\n来週、新しい照明が設置される。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "assemble",
+          "word": "assemble",
+          "say": "The desk is easy to assemble.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 異動させる・転勤させる",
+            "B. 検査する",
+            "C. 組み立てる・集まる",
+            "D. 手伝う"
+          ],
+          "correct": "C",
+          "why": "assemble（動）＝ 組み立てる・集まる",
+          "contrast": "検査する ＝ inspect\n手伝う ＝ assist\n異動させる・転勤させる ＝ transfer",
+          "example": "The desk is easy to assemble.\nその机は組み立てが簡単だ。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "inspect",
+          "word": "inspect",
+          "say": "All products are inspected before shipping.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 採用する",
+            "B. 通勤する",
+            "C. 検査する",
+            "D. 交換する・取り替える"
+          ],
+          "correct": "C",
+          "why": "inspect（動）＝ 検査する",
+          "contrast": "通勤する ＝ commute\n交換する・取り替える ＝ replace\n採用する ＝ recruit",
+          "example": "All products are inspected before shipping.\nすべての製品は出荷前に検査される。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "implement",
+          "word": "implement",
+          "say": "The new policy will be implemented in July.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 実施する",
+            "B. 組み立てる・集まる",
+            "C. 移転する",
+            "D. 発売する・始める"
+          ],
+          "correct": "A",
+          "why": "implement（動）＝ 実施する",
+          "contrast": "移転する ＝ relocate\n発売する・始める ＝ launch\n組み立てる・集まる ＝ assemble",
+          "example": "The new policy will be implemented in July.\n新しい方針は7月に実施される。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "reduce",
+          "word": "reduce",
+          "say": "We need to reduce our costs.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. （立て替えた費用を）払い戻す",
+            "B. 交換する・取り替える",
+            "C. 承認する",
+            "D. 減らす"
+          ],
+          "correct": "D",
+          "why": "reduce（動）＝ 減らす",
+          "contrast": "承認する ＝ approve\n交換する・取り替える ＝ replace\n（立て替えた費用を）払い戻す ＝ reimburse",
+          "example": "We need to reduce our costs.\n費用を減らす必要がある。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "expand",
+          "word": "expand",
+          "say": "The company plans to expand into Asia.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 採用する",
+            "B. 提出する",
+            "C. 設置する・インストールする",
+            "D. 拡大する"
+          ],
+          "correct": "D",
+          "why": "expand（動）＝ 拡大する",
+          "contrast": "設置する・インストールする ＝ install\n提出する ＝ submit\n採用する ＝ recruit",
+          "example": "The company plans to expand into Asia.\nその会社はアジアへの進出を計画している。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "relocate",
+          "word": "relocate",
+          "say": "Our office will relocate to the fifth floor.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 移転する",
+            "B. 退職する",
+            "C. 拡大する",
+            "D. 発売する・始める"
+          ],
+          "correct": "A",
+          "why": "relocate（動）＝ 移転する",
+          "contrast": "拡大する ＝ expand\n退職する ＝ retire\n発売する・始める ＝ launch",
+          "example": "Our office will relocate to the fifth floor.\n当事務所は5階に移転します。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "vacant",
+          "word": "vacant",
+          "say": "There are two vacant rooms on this floor.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 無料の",
+            "B. 空いている",
+            "C. 欠陥のある",
+            "D. 年に一度の"
+          ],
+          "correct": "B",
+          "why": "vacant（形）＝ 空いている",
+          "contrast": "年に一度の ＝ annual\n欠陥のある ＝ defective\n無料の ＝ complimentary",
+          "example": "There are two vacant rooms on this floor.\nこの階には空き部屋が2つある。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "tenant",
+          "word": "tenant",
+          "say": "All tenants must park in the back.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 倉庫",
+            "B. 保守点検",
+            "C. 議題・予定表",
+            "D. 入居者・テナント"
+          ],
+          "correct": "D",
+          "why": "tenant（名）＝ 入居者・テナント",
+          "contrast": "議題・予定表 ＝ agenda\n倉庫 ＝ warehouse\n保守点検 ＝ maintenance",
+          "example": "All tenants must park in the back.\n入居者は全員、裏に駐車しなければならない。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "property",
+          "word": "property",
+          "say": "The property is close to the station.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 物件・不動産",
+            "B. 提案（書）",
+            "C. 改装",
+            "D. 領収書"
+          ],
+          "correct": "A",
+          "why": "property（名）＝ 物件・不動産",
+          "contrast": "領収書 ＝ receipt\n提案（書） ＝ proposal\n改装 ＝ renovation",
+          "example": "The property is close to the station.\nその物件は駅に近い。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "w-b10",
+      "label": "単語 セット10",
+      "focus": 1,
+      "questions": [
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "commute",
+          "word": "commute",
+          "say": "She commutes to work by train.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 通勤する",
+            "B. 延長する",
+            "C. 期限が切れる",
+            "D. 手伝う"
+          ],
+          "correct": "A",
+          "why": "commute（動）＝ 通勤する",
+          "contrast": "期限が切れる ＝ expire\n手伝う ＝ assist\n延長する ＝ extend",
+          "example": "She commutes to work by train.\n彼女は電車で通勤している。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "reception",
+          "word": "reception",
+          "say": "Please wait at the reception desk.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 見積もり",
+            "B. 受付・歓迎会",
+            "C. 不便・迷惑",
+            "D. 定期購読・利用契約"
+          ],
+          "correct": "B",
+          "why": "reception（名）＝ 受付・歓迎会",
+          "contrast": "不便・迷惑 ＝ inconvenience\n定期購読・利用契約 ＝ subscription\n見積もり ＝ estimate",
+          "example": "Please wait at the reception desk.\n受付でお待ちください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "brochure",
+          "word": "brochure",
+          "say": "Please take a brochure on your way out.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 経理",
+            "B. パンフレット",
+            "C. 議事録",
+            "D. 在庫"
+          ],
+          "correct": "B",
+          "why": "brochure（名）＝ パンフレット",
+          "contrast": "議事録 ＝ minutes\n経理 ＝ accounting\n在庫 ＝ inventory",
+          "example": "Please take a brochure on your way out.\nお帰りの際にパンフレットをお取りください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "subscription",
+          "word": "subscription",
+          "say": "Your subscription will be renewed automatically.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 工事・建設",
+            "B. 定期購読・利用契約",
+            "C. 経理",
+            "D. 契約（書）"
+          ],
+          "correct": "B",
+          "why": "subscription（名）＝ 定期購読・利用契約",
+          "contrast": "契約（書） ＝ contract\n工事・建設 ＝ construction\n経理 ＝ accounting",
+          "example": "Your subscription will be renewed automatically.\n定期購読は自動で更新されます。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "patron",
+          "word": "patron",
+          "say": "The library is open late for patrons who work during the day.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. （図書館・店などの）利用客",
+            "B. 予算",
+            "C. 顧客・取引先",
+            "D. 収益・売上"
+          ],
+          "correct": "A",
+          "why": "patron（名）＝ （図書館・店などの）利用客",
+          "contrast": "顧客・取引先 ＝ client\n予算 ＝ budget\n収益・売上 ＝ revenue",
+          "example": "The library is open late for patrons who work during the day.\n図書館は日中働く利用者のために遅くまで開いている。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "routine",
+          "word": "routine",
+          "say": "The elevators will be closed for routine maintenance.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 空いている",
+            "B. 定期的な・いつもの",
+            "C. 一時的な・臨時の",
+            "D. 細心の注意を払った"
+          ],
+          "correct": "B",
+          "why": "routine（形）＝ 定期的な・いつもの",
+          "contrast": "空いている ＝ vacant\n細心の注意を払った ＝ meticulous\n一時的な・臨時の ＝ temporary",
+          "example": "The elevators will be closed for routine maintenance.\nエレベーターは定期点検のため止まる。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "inconvenience",
+          "word": "inconvenience",
+          "say": "We apologize for any inconvenience.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 物件・不動産",
+            "B. 不便・迷惑",
+            "C. 発送品・発送",
+            "D. （図書館・店などの）利用客"
+          ],
+          "correct": "B",
+          "why": "inconvenience（名）＝ 不便・迷惑",
+          "contrast": "発送品・発送 ＝ shipment\n物件・不動産 ＝ property\n（図書館・店などの）利用客 ＝ patron",
+          "example": "We apologize for any inconvenience.\nご不便をおかけして申し訳ありません。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "extension",
+          "word": "extension",
+          "say": "Please contact me at extension 214.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 提案（書）",
+            "B. 内線・延長",
+            "C. 保守点検",
+            "D. （図書館・店などの）利用客"
+          ],
+          "correct": "B",
+          "why": "extension（名）＝ 内線・延長",
+          "contrast": "保守点検 ＝ maintenance\n提案（書） ＝ proposal\n（図書館・店などの）利用客 ＝ patron",
+          "example": "Please contact me at extension 214.\n内線214番までご連絡ください。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "in advance",
+          "word": "in advance",
+          "say": "Rooms can be booked up to two weeks in advance.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 年に一度の",
+            "B. 前もって",
+            "C. 期限が切れる",
+            "D. 義務的な・必須の"
+          ],
+          "correct": "B",
+          "why": "in advance（句）＝ 前もって",
+          "contrast": "年に一度の ＝ annual\n義務的な・必須の ＝ mandatory\n期限が切れる ＝ expire",
+          "example": "Rooms can be booked up to two weeks in advance.\n部屋は2週間前から予約できる。"
+        },
+        {
+          "kind": "new",
+          "domain": 1,
+          "topic": "detour",
+          "word": "detour",
+          "say": "The bridge is closed, so we have to take a detour.",
+          "question": "この単語の意味として正しいものはどれですか？",
+          "choices": [
+            "A. 回り道",
+            "B. 倉庫",
+            "C. 締め切り",
+            "D. 会場"
+          ],
+          "correct": "A",
+          "why": "detour（名）＝ 回り道",
+          "contrast": "締め切り ＝ deadline\n会場 ＝ venue\n倉庫 ＝ warehouse",
+          "example": "The bridge is closed, so we have to take a detour.\n橋が閉鎖中なので、回り道をしなければならない。"
+        }
+      ],
+      "createdAt": "2026-10-27"
+    }
+  ]
+}

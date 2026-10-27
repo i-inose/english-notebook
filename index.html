@@ -2,58 +2,390 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>English Notebook</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>英語 間違いノート</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
 <style>
+/* レイアウト: 方眼ノートの紙面。上に進め方と分野別の残数、下に答えを隠したカードを縦に並べる */
 :root {
-  --bg: #f7f6f2; --card: #ffffff; --text: #1f2328; --muted: #6a6f76; --line: #e3e1da;
-  --accent: #2f5bd3; --accent-text: #ffffff; --ok: #1f7a4a; --ng: #c2412d; --soft: #eef2fc;
+  --paper: #f6f7f9;
+  --sheet: #ffffff;
+  --grid: #e3e8ef;
+  --ink: #1d2a3a;
+  --ink-soft: #5a6778;
+  --line: #d5dce6;
+  --accent: #2456a6;
+  --accent-soft: #e6eefb;
+  --red: #c8322b;
+  --red-soft: #fbe9e7;
+  --amber: #a86400;
+  --amber-soft: #fdf1dc;
+  --green: #1f7a4d;
+  --green-soft: #e3f4ea;
+  --font-display: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", sans-serif;
+  --font-body: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #15171a; --card: #1e2125; --text: #e8eaed; --muted: #9aa0a6; --line: #30343a;
-    --accent: #7aa2ff; --accent-text: #0d1117; --ok: #5cc98a; --ng: #ff8a75; --soft: #232a3a;
+  :root {
+    --paper: #12161c; --sheet: #1a2029; --grid: #1f2630; --ink: #e4e9f0; --ink-soft: #9aa6b5;
+    --line: #2e3744; --accent: #8db4f5; --accent-soft: #1d2a40; --red: #ff8a80; --red-soft: #3a1f1e;
+    --amber: #f2b85c; --amber-soft: #3a2c15; --green: #7fd1a4; --green-soft: #17302a; color-scheme: dark;
   }
 }
-:root[data-theme="dark"] {
-  --bg: #15171a; --card: #1e2125; --text: #e8eaed; --muted: #9aa0a6; --line: #30343a;
-  --accent: #7aa2ff; --accent-text: #0d1117; --ok: #5cc98a; --ng: #ff8a75; --soft: #232a3a;
-}
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, "Hiragino Sans", sans-serif; }
-main { max-width: 560px; margin: 0 auto; padding: 16px 16px 96px; }
-h1 { font-size: 20px; margin: 4px 0 12px; }
-h2 { font-size: 17px; margin: 20px 0 8px; }
-.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin: 12px 0; }
-.muted { color: var(--muted); font-size: 14px; }
-.btn { display: block; width: 100%; padding: 14px; margin: 8px 0; border: 0; border-radius: 12px; background: var(--accent); color: var(--accent-text); font-size: 16px; font-weight: 600; text-align: center; text-decoration: none; }
-.btn.secondary { background: var(--soft); color: var(--text); }
-.btn:disabled { opacity: .45; }
-.row { display: flex; gap: 8px; } .row > * { flex: 1; }
-.choice { display: block; width: 100%; text-align: left; padding: 13px 14px; margin: 8px 0; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--text); font-size: 16px; }
-.choice.sel { border-color: var(--accent); background: var(--soft); }
-.choice.ok { border-color: var(--ok); color: var(--ok); font-weight: 600; }
-.choice.ng { border-color: var(--ng); color: var(--ng); }
-.big { font-size: 28px; font-weight: 700; margin: 4px 0; }
-.q { font-size: 18px; margin: 8px 0 4px; }
-.speak { border: 1px solid var(--line); background: var(--soft); color: var(--text); border-radius: 999px; padding: 6px 14px; font-size: 15px; }
-.speak.large { font-size: 22px; padding: 18px 28px; display: block; margin: 16px auto; }
-.ex { margin: 10px 0; padding-left: 10px; border-left: 3px solid var(--line); }
-.tw { border-bottom: 1px dotted var(--muted); cursor: pointer; }
-.tw.added { background: var(--soft); border-bottom-color: var(--accent); }
-.ok-t { color: var(--ok); font-weight: 700; } .ng-t { color: var(--ng); font-weight: 700; }
-.pre { white-space: pre-wrap; }
-nav { position: fixed; bottom: 0; left: 0; right: 0; display: flex; background: var(--card); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
-nav button { flex: 1; padding: 12px 0; border: 0; background: none; color: var(--muted); font-size: 14px; }
-nav button.on { color: var(--accent); font-weight: 700; }
-.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; } .bar > i { display: block; height: 100%; background: var(--accent); }
-textarea { width: 100%; min-height: 120px; font-size: 12px; }
-select { font-size: 16px; padding: 6px; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background-color: var(--paper);
+  background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.75;
+}
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-block: 32px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: 28px;
+}
+header { display: grid; gap: 6px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; color: var(--accent); }
+h1 { font-family: var(--font-display); font-weight: 900; font-size: clamp(26px, 5vw, 34px); line-height: 1.3; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--ink-soft); max-width: 60ch; }
+.links { display: flex; flex-wrap: wrap; gap: 16px; font-size: 14px; font-weight: 500; }
+.links a { color: var(--accent); }
+
+.panel { background: var(--sheet); border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
+h2 { font-family: var(--font-display); font-weight: 700; font-size: 17px; margin: 0 0 12px; }
+.rules { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+
+.domains { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 680px) { .domains { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.dom {
+  all: unset; cursor: pointer; display: grid; gap: 4px; padding: 12px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--sheet); min-width: 0;
+}
+.dom:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.dom[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.dom .no { font-family: var(--font-mono); font-size: 12px; color: var(--ink-soft); display: flex; justify-content: space-between; gap: 6px; }
+.stage { font-family: var(--font-body); font-size: 11px; font-weight: 700; padding: 0 6px; border-radius: 999px; }
+.stage.learning { background: var(--accent); color: var(--sheet); }
+.stage.mastered { background: var(--green-soft); color: var(--green); }
+.stage.todo { background: var(--grid); color: var(--ink-soft); }
+.dom .name { font-weight: 700; font-size: 13px; line-height: 1.4; }
+.dom .count { font-family: var(--font-display); font-weight: 900; font-size: 26px; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.dom .count small { font-size: 12px; font-weight: 500; color: var(--ink-soft); margin-left: 4px; }
+.dom .weight { font-size: 12px; color: var(--ink-soft); }
+
+.history { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { color: var(--ink-soft); font-weight: 500; }
+.rate-bad { color: var(--red); font-weight: 700; }
+.rate-mid { color: var(--amber); font-weight: 700; }
+.rate-good { color: var(--green); font-weight: 700; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: var(--sheet); }
+.seg button { all: unset; cursor: pointer; padding: 6px 14px; font-size: 13px; color: var(--ink-soft); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--sheet); }
+.seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.shown { margin-left: auto; font-size: 13px; color: var(--ink-soft); }
+
+.list { display: grid; gap: 16px; }
+.card { background: var(--sheet); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 12px; min-width: 0; }
+.card.graduated { opacity: .72; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 12px; }
+.tag { padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 500; }
+.pill { padding: 2px 8px; border-radius: 999px; font-weight: 700; }
+.pill.wrong { background: var(--red-soft); color: var(--red); }
+.pill.guess { background: var(--amber-soft); color: var(--amber); }
+.pill.done { background: var(--green-soft); color: var(--green); }
+.due { color: var(--ink-soft); }
+.due.now { color: var(--red); font-weight: 700; }
+.streak { margin-left: auto; color: var(--ink-soft); display: inline-flex; gap: 4px; align-items: center; }
+.dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--green); display: inline-block; }
+.dot.on { background: var(--green); }
+.topic { font-family: var(--font-display); font-weight: 700; font-size: 17px; margin: 0; line-height: 1.5; }
+.q { margin: 0; white-space: pre-wrap; }
+.choices { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.choices li { padding: 6px 10px; border-radius: 6px; border: 1px solid var(--line); display: flex; gap: 8px; align-items: baseline; }
+.revealed .choices li.mine { color: var(--red); background: var(--red-soft); border-color: transparent; }
+.revealed .choices li.mine .txt { text-decoration: line-through; text-decoration-thickness: 2px; }
+.revealed .choices li.correct { border-color: var(--green); background: var(--green-soft); font-weight: 700; }
+.choices .mark { font-family: var(--font-mono); font-size: 12px; min-width: 4.5em; flex: none; display: none; }
+.revealed .choices .mark { display: inline; }
+.reveal {
+  all: unset; cursor: pointer; justify-self: start; padding: 8px 16px; border-radius: 6px;
+  background: var(--ink); color: var(--sheet); font-weight: 700; font-size: 14px;
+}
+.reveal:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.answer { display: grid; gap: 10px; }
+.box { padding: 8px 12px; border-radius: 0 6px 6px 0; border-left: 3px solid var(--line); }
+.box b { display: block; font-size: 12px; letter-spacing: .04em; }
+.box p { margin: 0; white-space: pre-wrap; }
+.box.why { border-color: var(--green); background: var(--green-soft); }
+.box.why b { color: var(--green); }
+.box.contrast { border-color: var(--red); background: var(--red-soft); }
+.box.contrast b { color: var(--red); }
+.box.example { border-color: var(--accent); background: var(--accent-soft); }
+.box.example b { color: var(--accent); }
+details { border-top: 1px dashed var(--line); padding-top: 8px; }
+summary { cursor: pointer; font-size: 13px; color: var(--accent); font-weight: 500; }
+summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.exp { white-space: pre-wrap; margin: 8px 0 0; }
+.src { margin: 8px 0 0; padding-left: 1.2em; font-size: 13px; }
+.src a { color: var(--accent); word-break: break-all; }
+.empty { text-align: center; color: var(--ink-soft); padding: 32px 16px; }
+.empty b { display: block; color: var(--ink); font-family: var(--font-display); font-size: 17px; margin-bottom: 4px; }
 </style>
 </head>
 <body>
-<main id="app"><p class="muted">読み込み中…</p></main>
-<nav id="nav"></nav>
-<script src="app.js"></script>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">ENGLISH · TOEIC L&amp;R 900+</span>
+    <h1>英語 間違いノート</h1>
+    <p class="lead">間違えた問題と、勘で当たった問題の記録です。見返すときは読み流さず、問題を見て答えを思い出してから「答えを確かめる」を押してください。</p>
+    <nav class="links">
+      <a href="quiz.html">スマホで解く（クイズ）</a>
+    </nav>
+  </header>
+
+  <section class="panel" aria-labelledby="h-plan">
+    <h2 id="h-plan">進め方</h2>
+    <ul class="rules" id="rules"></ul>
+  </section>
+
+  <section class="panel" aria-labelledby="h-dom">
+    <h2 id="h-dom">分野ごとの要復習</h2>
+    <div class="domains" id="domains"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-hist">
+    <h2 id="h-hist">回答の記録</h2>
+    <div class="history" id="history"><p class="empty">まだ記録がありません。</p></div>
+  </section>
+
+  <section aria-labelledby="h-list" style="display:grid;gap:14px">
+    <h2 id="h-list" style="margin:0">問題</h2>
+    <div class="filters">
+      <div class="seg" role="group" aria-label="状態">
+        <button data-status="due" aria-pressed="true">今日の復習</button>
+        <button data-status="active" aria-pressed="false">要復習</button>
+        <button data-status="graduated" aria-pressed="false">卒業</button>
+        <button data-status="all" aria-pressed="false">すべて</button>
+      </div>
+      <div class="seg" role="group" aria-label="種類">
+        <button data-kind="all" aria-pressed="true">両方</button>
+        <button data-kind="wrong" aria-pressed="false">不正解</button>
+        <button data-kind="guess" aria-pressed="false">勘で正解</button>
+      </div>
+      <div class="seg" role="group" aria-label="答えの表示">
+        <button data-show="hide" aria-pressed="true">答えを隠す</button>
+        <button data-show="show" aria-pressed="false">すべて表示</button>
+      </div>
+      <span class="shown" id="shown"></span>
+    </div>
+    <div class="list" id="list">
+      <div class="empty"><b>ノートを読み込んでいます</b></div>
+    </div>
+  </section>
+</div>
+
+<script>
+// 分野（1 = 単語、2〜7 = 診断で間違えた文法の単元）
+const DOMAINS = {
+  1: { name: "単語", weight: "語彙" },
+  2: { name: "助動詞＋have＋過去分詞", weight: "基礎文法" },
+  3: { name: "動名詞と不定詞", weight: "基礎文法" },
+  4: { name: "分詞が名詞を後ろから説明する形", weight: "基礎文法" },
+  5: { name: "関係副詞", weight: "基礎文法" },
+  6: { name: "仮定法", weight: "基礎文法" },
+  7: { name: "数えられない名詞", weight: "基礎文法" },
+};
+const STAGE_LABEL = { learning: "学習中", mastered: "習得", todo: "未着手" };
+const GRADUATE_STREAK = 2;
+const TODAY = new Date().toLocaleDateString("sv-SE");
+
+const state = { plan: {}, notes: [], sessions: [], status: "due", kind: "all", show: "hide", domain: null, opened: new Set() };
+
+function el(tag, attrs = {}, ...children) {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") node.className = v;
+    else if (k === "text") node.textContent = v;
+    else node.setAttribute(k, v);
+  }
+  for (const c of children) if (c != null) node.append(c);
+  return node;
+}
+
+const isActive = n => (n.status || "active") === "active";
+const isDue = n => isActive(n) && (!n.nextReview || n.nextReview <= TODAY);
+
+function filtered() {
+  const byStatus = {
+    due: isDue,
+    active: isActive,
+    graduated: n => n.status === "graduated",
+    all: () => true,
+  }[state.status];
+  return state.notes
+    .filter(n => byStatus(n) &&
+      (state.kind === "all" || n.result === state.kind) &&
+      (state.domain == null || n.domain === state.domain))
+    .sort((a, b) => (a.nextReview || "").localeCompare(b.nextReview || "") || a.no - b.no);
+}
+
+function renderPlan() {
+  const ul = document.getElementById("rules");
+  ul.replaceChildren(...(state.plan.rules || []).map(r => el("li", { text: r })));
+}
+
+function renderDomains() {
+  const box = document.getElementById("domains");
+  box.replaceChildren();
+  const stages = state.plan.stages || {};
+  for (const [no, d] of Object.entries(DOMAINS)) {
+    const n = Number(no);
+    const active = state.notes.filter(x => x.domain === n && isActive(x)).length;
+    const done = state.notes.filter(x => x.domain === n && x.status === "graduated").length;
+    const stage = stages[no] || "todo";
+    const btn = el("button", { class: "dom", "aria-pressed": String(state.domain === n) },
+      el("span", { class: "no" }, "分野 " + n, el("span", { class: "stage " + stage, text: STAGE_LABEL[stage] })),
+      el("span", { class: "name", text: d.name }),
+      el("span", { class: "count" }, String(active), el("small", { text: "問 / 卒業 " + done })),
+      el("span", { class: "weight", text: d.weight }));
+    btn.addEventListener("click", () => { state.domain = state.domain === n ? null : n; render(); });
+    box.append(btn);
+  }
+}
+
+function rateClass(c, t) {
+  if (!t) return "";
+  const r = c / t;
+  return r >= 0.8 ? "rate-good" : r >= 0.6 ? "rate-mid" : "rate-bad";
+}
+
+function renderHistory() {
+  const box = document.getElementById("history");
+  if (!state.sessions.length) { box.replaceChildren(el("p", { class: "empty", text: "まだ記録がありません。" })); return; }
+  const head = el("tr", {}, el("th", { text: "日付" }), el("th", { text: "内容" }), el("th", { text: "正答" }),
+    ...Object.keys(DOMAINS).map(k => el("th", { text: "分野" + k })));
+  const rows = [...state.sessions].sort((a, b) => b.order - a.order).map(s => {
+    const by = s.byDomain || {};
+    return el("tr", {},
+      el("td", { text: s.date || "" }),
+      el("td", { text: s.label || "" }),
+      el("td", { class: rateClass(s.correct, s.total), text: `${s.correct}/${s.total}（${s.total ? Math.round(s.correct / s.total * 100) : 0}%）` }),
+      ...Object.keys(DOMAINS).map(k => {
+        const v = by[k];
+        return el("td", v ? { class: rateClass(v[0], v[1]), text: `${v[0]}/${v[1]}` } : { text: "—" });
+      }));
+  });
+  box.replaceChildren(el("table", {}, el("thead", {}, head), el("tbody", {}, ...rows)));
+}
+
+function box(cls, label, text) {
+  return text ? el("div", { class: "box " + cls }, el("b", { text: label }), el("p", { text })) : null;
+}
+
+function renderCard(n) {
+  const revealed = state.show === "show" || state.opened.has(n.no);
+  const kindPill = n.status === "graduated"
+    ? el("span", { class: "pill done", text: "卒業" })
+    : el("span", { class: "pill " + (n.result === "guess" ? "guess" : "wrong"), text: n.result === "guess" ? "勘で正解" : "不正解" });
+  const dots = el("span", { class: "streak", title: "連続正解" }, "連続正解");
+  for (let i = 0; i < GRADUATE_STREAK; i++) dots.append(el("span", { class: "dot" + (i < (n.streak || 0) ? " on" : "") }));
+  const due = isActive(n) && n.nextReview
+    ? el("span", { class: "due" + (isDue(n) ? " now" : ""), text: isDue(n) ? "復習日です" : "次の復習 " + n.nextReview })
+    : null;
+
+  const choices = el("ul", { class: "choices" });
+  for (const c of n.choices || []) {
+    const letter = String(c).trim().charAt(0);
+    const correct = (n.correct || "").includes(letter);
+    const mine = !correct && (n.myAnswer || "").includes(letter);
+    choices.append(el("li", { class: correct ? "correct" : mine ? "mine" : "" },
+      el("span", { class: "mark", text: correct ? "正解" : mine ? "自分の答え" : "" }),
+      el("span", { class: "txt", text: c })));
+  }
+
+  const card = el("article", { class: "card" + (n.status === "graduated" ? " graduated" : "") + (revealed ? " revealed" : "") },
+    el("div", { class: "meta" },
+      el("span", { class: "tag", text: "分野" + n.domain + " " + (DOMAINS[n.domain]?.name || "") }),
+      kindPill,
+      n.result === "wrong" && n.confidence === "high" ? el("span", { class: "pill wrong", text: "自信ありで間違い" }) : null,
+      due,
+      dots),
+    el("h3", { class: "topic", text: n.topic || "" }),
+    el("p", { class: "q", text: n.question || "" }),
+    choices);
+
+  if (!revealed) {
+    const btn = el("button", { class: "reveal", text: "答えを確かめる" });
+    btn.addEventListener("click", () => { state.opened.add(n.no); render(); });
+    card.append(btn);
+    return card;
+  }
+
+  const answer = el("div", { class: "answer" },
+    box("why", "正解の理由", n.why),
+    box("contrast", "紛らわしい相手との違い", n.contrast),
+    box("example", "使う場面", n.example));
+  if (n.explanation || (n.sources || []).length) {
+    const d = el("details", {}, el("summary", { text: "詳しい解説と出典" }));
+    if (n.explanation) d.append(el("p", { class: "exp", text: n.explanation }));
+    const links = (n.sources || []).filter(s => /^https:\/\//.test(String(s.url || "")));
+    if (links.length) d.append(el("ul", { class: "src" },
+      ...links.map(s => el("li", {}, el("a", { href: s.url, target: "_blank", rel: "noopener", text: s.title || s.url })))));
+    answer.append(d);
+  }
+  card.append(answer);
+  return card;
+}
+
+function render() {
+  renderPlan();
+  renderDomains();
+  renderHistory();
+  for (const b of document.querySelectorAll("[data-status]")) b.setAttribute("aria-pressed", String(b.dataset.status === state.status));
+  for (const b of document.querySelectorAll("[data-kind]")) b.setAttribute("aria-pressed", String(b.dataset.kind === state.kind));
+  for (const b of document.querySelectorAll("[data-show]")) b.setAttribute("aria-pressed", String(b.dataset.show === state.show));
+  const items = filtered();
+  const list = document.getElementById("list");
+  document.getElementById("shown").textContent = items.length + " 問を表示" + (state.domain ? `（分野${state.domain}のみ）` : "");
+  if (!state.notes.length) {
+    list.replaceChildren(el("div", { class: "empty" }, el("b", { text: "まだ問題がありません" }), "一問一答で間違えた問題が、ここに追加されます。"));
+    return;
+  }
+  if (!items.length) {
+    const msg = state.status === "due" ? "今日復習する問題はありません。「要復習」で全体を見られます。" : "状態や分野の絞り込みを変えてみてください。";
+    list.replaceChildren(el("div", { class: "empty" }, el("b", { text: "この条件の問題はありません" }), msg));
+    return;
+  }
+  list.replaceChildren(...items.map(renderCard));
+}
+
+for (const b of document.querySelectorAll("[data-status]")) b.addEventListener("click", () => { state.status = b.dataset.status; render(); });
+for (const b of document.querySelectorAll("[data-kind]")) b.addEventListener("click", () => { state.kind = b.dataset.kind; render(); });
+for (const b of document.querySelectorAll("[data-show]")) b.addEventListener("click", () => { state.show = b.dataset.show; state.opened.clear(); render(); });
+
+fetch("data.json", { cache: "no-store" })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { state.plan = d.plan || {}; state.notes = d.notes || []; state.sessions = d.sessions || []; render(); })
+  .catch(() => {
+    document.getElementById("list").replaceChildren(el("div", { class: "empty" }, el("b", { text: "ノートを読み込めませんでした" }), "ページを再読み込みしてください。"));
+  });
+</script>
 </body>
 </html>
