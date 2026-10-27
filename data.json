@@ -1,0 +1,18 @@
+{
+ "plan": {
+  "newPerDay": 10,
+  "reviewCap": 100,
+  "retention": 0.9,
+  "rules": [
+   "新出語は1日10語まで。復習待ちが100枚を超えたら新出を止める",
+   "文法の単元は、別の日に2回8割以上で合格",
+   "評価は 忘れた=1 / 勘で正解=2 / できた=3"
+  ]
+ },
+ "cards": {},
+ "units": {},
+ "sessions": [],
+ "imported": [],
+ "wordRequests": [],
+ "wrong": []
+}

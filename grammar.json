@@ -1,0 +1,100 @@
+{
+  "units": [
+    {
+      "id": "g1", "title": "助動詞＋have＋過去分詞",
+      "lesson": "「助動詞 + have + 過去分詞」で、過去のことについての推量や後悔を表す。\nmust have done ＝ 〜したに違いない\ncan't have done ＝ 〜したはずがない\nmay / might have done ＝ 〜したかもしれない\nshould have done ＝ 〜すべきだったのに（しなかった）\ncould have done ＝ 〜できたのに（しなかった）\nneedn't have done ＝ 〜する必要はなかったのに（した）",
+      "questions": [
+        {"id": "g1-01", "q": "The lights are off. Everyone ___ gone home already.", "a": "must have", "d": ["can't have", "should have", "needn't have"], "ja": "明かりが消えている。みんなもう帰ったに違いない。", "why": "明かりが消えているという根拠から「帰ったに違いない」と強く推量するので must have。", "contrast": "must have ＝ 〜したに違いない（強い推量）\ncan't have ＝ 〜したはずがない（逆の意味）"},
+        {"id": "g1-02", "q": "He ___ have seen me yesterday. I was in Osaka all day.", "a": "can't", "d": ["must", "should", "could"], "ja": "彼が昨日私を見たはずがない。私は一日中大阪にいた。", "why": "一日中大阪にいたので、見たことはありえない。can't have ＝ 〜したはずがない。", "contrast": "can't have ＝ ありえない\nmust have ＝ 〜したに違いない"},
+        {"id": "g1-03", "q": "I'm sorry I was late. I ___ left home earlier.", "a": "should have", "d": ["must have", "can't have", "may have"], "ja": "遅れてすみません。もっと早く家を出るべきでした。", "why": "実際は早く出なかったことへの後悔なので should have（〜すべきだったのに）。", "contrast": "should have ＝ 〜すべきだった（後悔）\nmust have ＝ 〜したに違いない（推量）"},
+        {"id": "g1-04", "q": "Mr. Kim ___ the e-mail, but I'm not sure.", "a": "may have read", "d": ["can't have read", "should have read", "needn't have read"], "ja": "キムさんはメールを読んだかもしれないが、確かではない。", "why": "「確かではない」とあるので、弱い推量の may have（〜したかもしれない）。", "contrast": "may have ＝ 〜したかもしれない（弱い推量）\nmust have ＝ 〜したに違いない（強い推量）"},
+        {"id": "g1-05", "q": "You ___ brought an umbrella. It didn't rain at all.", "a": "needn't have", "d": ["must have", "can't have", "may have"], "ja": "傘を持ってくる必要はなかったのに。まったく降らなかった。", "why": "実際に傘を持ってきたが、結果的に不要だったので needn't have。", "contrast": "needn't have ＝ 〜する必要はなかった（のにした）\nshould have ＝ 〜すべきだった（のにしなかった）"},
+        {"id": "g1-06", "q": "The report has several errors. It ___ checked more carefully.", "a": "should have been", "d": ["must have been", "can't have been", "needn't have been"], "ja": "報告書に誤りがいくつかある。もっと注意して確認されるべきだった。", "why": "誤りがあるのは確認が足りなかったから。報告書は「確認される」側なので受け身の should have been。", "contrast": "should have been checked ＝ 確認されるべきだった\nmust have been checked ＝ 確認されたに違いない"},
+        {"id": "g1-07", "q": "She knows every detail of the plan. She ___ attended the meeting.", "a": "must have", "d": ["can't have", "should have", "needn't have"], "ja": "彼女は計画の細部まで知っている。会議に出たに違いない。", "why": "細部まで知っているという根拠から、出席したと強く推量するので must have。", "contrast": "must have ＝ 根拠があって強く推量\nshould have ＝ 後悔・非難"},
+        {"id": "g1-08", "q": "We ___ won the contract if our price had been lower.", "a": "could have", "d": ["must have", "can't have", "needn't have"], "ja": "価格がもっと安ければ、契約を取れたのに。", "why": "実際には取れなかったが、条件しだいで可能だった。could have ＝ 〜できたのに。", "contrast": "could have ＝ 〜できたのに（実際はしなかった）\nmust have ＝ 〜したに違いない"},
+        {"id": "g1-09", "q": "The package ___ arrived yet. It was shipped only an hour ago.", "a": "can't have", "d": ["must have", "should have", "may have"], "ja": "荷物はまだ届いたはずがない。1時間前に発送されたばかりだ。", "why": "1時間前に発送したばかりなので、もう届いていることはありえない。can't have。", "contrast": "can't have ＝ ありえない\nmay have ＝ 〜したかもしれない"},
+        {"id": "g1-10", "q": "Ms. Lee isn't at her desk. She ___ gone to lunch.", "a": "might have", "d": ["needn't have", "should have", "can't have"], "ja": "リーさんは席にいない。昼食に行ったのかもしれない。", "why": "席にいない理由を軽く推量しているので might have（〜したかもしれない）。", "contrast": "might have ＝ 〜したかもしれない\nneedn't have ＝ 〜する必要はなかったのに"}
+      ]
+    },
+    {
+      "id": "g2", "title": "動名詞（-ing）と不定詞（to do）",
+      "lesson": "動詞によって、後ろに -ing が来るか to do が来るかが決まっている。\n-ing をとる: consider, avoid, enjoy, finish, mind, postpone, suggest, recommend\nto do をとる: decide, plan, agree, hope, expect, refuse, offer, want\n両方とれて意味が変わる: remember / forget / stop\n・remember doing ＝ 〜したことを覚えている／remember to do ＝ 忘れずに〜する\n・stop doing ＝ 〜するのをやめる／stop to do ＝ 〜するために立ち止まる\n目安: -ing は「すでにしている・したこと」、to do は「これからすること」",
+      "questions": [
+        {"id": "g2-01", "q": "We are considering ___ a new office in Osaka.", "a": "opening", "d": ["to open", "open", "opened"], "ja": "大阪に新しい事務所を開くことを検討している。", "why": "consider は後ろに -ing をとる動詞。to do はとらない。", "contrast": "consider + -ing\ndecide + to do（決める＝これからすること）"},
+        {"id": "g2-02", "q": "The company decided ___ its prices next month.", "a": "to raise", "d": ["raising", "raise", "raised"], "ja": "その会社は来月、値上げすることを決めた。", "why": "decide は to do をとる。これから先のことを決めるので to 不定詞。", "contrast": "decide + to do\nconsider + -ing"},
+        {"id": "g2-03", "q": "Please avoid ___ your phone during the presentation.", "a": "using", "d": ["to use", "use", "used"], "ja": "発表中は電話を使わないようにしてください。", "why": "avoid は -ing をとる動詞。", "contrast": "avoid + -ing ＝ 〜するのを避ける\nrefuse + to do ＝ 〜するのを断る"},
+        {"id": "g2-04", "q": "Would you mind ___ the door?", "a": "closing", "d": ["to close", "close", "closed"], "ja": "ドアを閉めていただけますか？", "why": "mind は -ing をとる動詞。Would you mind -ing? ＝ 〜していただけますか。", "contrast": "mind + -ing\nwant + to do"},
+        {"id": "g2-05", "q": "The manager agreed ___ the deadline by one week.", "a": "to extend", "d": ["extending", "extend", "extended"], "ja": "部長は締め切りを1週間延ばすことに同意した。", "why": "agree は to do をとる動詞。", "contrast": "agree + to do\nsuggest + -ing"},
+        {"id": "g2-06", "q": "Have you finished ___ the report?", "a": "writing", "d": ["to write", "write", "written"], "ja": "報告書は書き終わりましたか？", "why": "finish は -ing をとる動詞。", "contrast": "finish + -ing\nplan + to do"},
+        {"id": "g2-07", "q": "Please remember ___ the lights when you leave.", "a": "to turn off", "d": ["turning off", "turn off", "turned off"], "ja": "帰るときは忘れずに電気を消してください。", "why": "これからすることを「忘れずに〜する」なので remember to do。", "contrast": "remember to do ＝ 忘れずに〜する（これから）\nremember doing ＝ 〜したことを覚えている（過去）"},
+        {"id": "g2-08", "q": "I remember ___ Mr. Davis at last year's conference.", "a": "meeting", "d": ["to meet", "meet", "met"], "ja": "昨年の会議でデイビスさんに会ったことを覚えている。", "why": "昨年すでに会ったことを覚えているので remember doing。", "contrast": "remember doing ＝ 〜したことを覚えている\nremember to do ＝ 忘れずに〜する"},
+        {"id": "g2-09", "q": "They postponed ___ the product until spring.", "a": "launching", "d": ["to launch", "launch", "launched"], "ja": "彼らは製品の発売を春まで延期した。", "why": "postpone は -ing をとる動詞。", "contrast": "postpone + -ing\nexpect + to do"},
+        {"id": "g2-10", "q": "The client refused ___ the extra fee.", "a": "to pay", "d": ["paying", "pay", "paid"], "ja": "顧客は追加料金を払うのを断った。", "why": "refuse は to do をとる動詞。", "contrast": "refuse + to do ＝ 〜するのを断る\navoid + -ing ＝ 〜するのを避ける"}
+      ]
+    },
+    {
+      "id": "g3", "title": "分詞が名詞を後ろから説明する形",
+      "lesson": "名詞のすぐ後ろに分詞を置いて、その名詞を説明できる。\n過去分詞（-ed）＝「〜された」: the documents signed by the manager（部長に署名された書類）\n現在分詞（-ing）＝「〜している」: the man standing by the door（ドアのそばに立っている男性）\n見分け方: 説明される名詞が「する側」なら -ing、「される側」なら -ed\n注意: 文の動詞はすでにある（were sent など）ので、were signed のように動詞を2つにしない",
+      "questions": [
+        {"id": "g3-01", "q": "The documents ___ by the manager were sent to the client.", "a": "signed", "d": ["signing", "were signed", "sign"], "ja": "部長が署名した書類が顧客に送られた。", "why": "書類は「署名される」側なので過去分詞。文の動詞は were sent なので、were signed にすると動詞が2つになる。", "contrast": "signed ＝ 署名された（される側）\nsigning ＝ 署名している（する側）"},
+        {"id": "g3-02", "q": "The woman ___ at the reception desk is our new receptionist.", "a": "working", "d": ["worked", "works", "is working"], "ja": "受付で働いている女性は新しい受付係だ。", "why": "女性は「働いている」する側なので現在分詞 working。文の動詞は is。", "contrast": "working ＝ 働いている（する側）\nis working にすると動詞が2つになる"},
+        {"id": "g3-03", "q": "All products ___ in this factory are checked twice.", "a": "made", "d": ["making", "make", "are made"], "ja": "この工場で作られた製品はすべて2回検査される。", "why": "製品は「作られる」側なので過去分詞 made。", "contrast": "made ＝ 作られた\nmaking ＝ 作っている"},
+        {"id": "g3-04", "q": "Employees ___ to attend the seminar should register by Friday.", "a": "wishing", "d": ["wished", "wish", "are wishing"], "ja": "セミナーへの参加を希望する社員は、金曜日までに登録してください。", "why": "社員は「希望する」する側なので現在分詞 wishing。文の動詞は should register。", "contrast": "wishing ＝ 希望している（する側）\nwished ＝ 希望された（される側）"},
+        {"id": "g3-05", "q": "The report ___ last week contained several errors.", "a": "submitted", "d": ["submitting", "submits", "was submitted"], "ja": "先週提出された報告書には誤りがいくつかあった。", "why": "報告書は「提出される」側なので過去分詞。文の動詞は contained。", "contrast": "submitted ＝ 提出された\nwas submitted にすると動詞が2つになる"},
+        {"id": "g3-06", "q": "Passengers ___ for Flight 207 should go to Gate 12.", "a": "waiting", "d": ["waited", "wait", "are waiting"], "ja": "207便をお待ちの乗客は12番ゲートへお進みください。", "why": "乗客は「待っている」する側なので現在分詞 waiting。", "contrast": "waiting ＝ 待っている\nwait（原形）は名詞の後ろに置けない"},
+        {"id": "g3-07", "q": "The items ___ in the catalog are available online.", "a": "listed", "d": ["listing", "list", "are listed"], "ja": "カタログに載っている品物はネットで買える。", "why": "品物は「載せられる」側なので過去分詞 listed。", "contrast": "listed ＝ 載せられた\nlisting ＝ 載せている"},
+        {"id": "g3-08", "q": "We received many comments ___ the new design.", "a": "praising", "d": ["praised", "praise", "are praising"], "ja": "新しいデザインをほめるコメントがたくさん届いた。", "why": "コメントが「ほめる」する側なので現在分詞 praising。後ろに目的語 the new design があることも手がかり。", "contrast": "praising + 目的語 ＝ 〜をほめている\npraised ＝ ほめられた（後ろに目的語が来ない）"},
+        {"id": "g3-09", "q": "The meeting room ___ on the third floor is under renovation.", "a": "located", "d": ["locating", "locates", "is located"], "ja": "3階にある会議室は改装中だ。", "why": "be located ＝ 〜にある。名詞の後ろでは located だけを残す。", "contrast": "located ＝ 位置している（場所の説明の決まり文句）\nis located にすると動詞が2つになる"},
+        {"id": "g3-10", "q": "Customers ___ a receipt can get a full refund.", "a": "showing", "d": ["shown", "show", "are showing"], "ja": "領収書を見せたお客様は全額返金を受けられます。", "why": "客が領収書を「見せる」する側で、後ろに目的語 a receipt があるので現在分詞。", "contrast": "showing + 目的語 ＝ 〜を見せている\nshown ＝ 見せられた"}
+      ]
+    },
+    {
+      "id": "g4", "title": "関係副詞（where / when / why）",
+      "lesson": "関係副詞 where / when / why は、後ろが文として完成しているときに使う。\nwhere ＝ 場所（the town where I was born）\nwhen ＝ 時（the day when we met）\nwhy ＝ 理由（the reason why he left）\nwhich は後ろの文に名詞が欠けているときに使う: the town which I visited（visited の目的語が欠けている）\n見分け方: 空欄の後ろだけを読み、主語・目的語がそろっていれば関係副詞、欠けていれば関係代名詞",
+      "questions": [
+        {"id": "g4-01", "q": "This is the town ___ I was born.", "a": "where", "d": ["which", "what", "when"], "ja": "ここは私が生まれた町だ。", "why": "後ろの I was born は文として完成している（欠けている名詞がない）ので関係副詞。場所なので where。", "contrast": "where ＋ 完成した文\nwhich ＋ 名詞が欠けた文"},
+        {"id": "g4-02", "q": "This is the town ___ I visited last year.", "a": "which", "d": ["where", "when", "why"], "ja": "ここは私が昨年訪れた町だ。", "why": "visited の目的語（何を訪れたか）が欠けているので関係代名詞 which。", "contrast": "I visited ___ ← 目的語が欠けている → which\nI was born ← 完成している → where"},
+        {"id": "g4-03", "q": "Do you remember the day ___ we first met?", "a": "when", "d": ["which", "where", "what"], "ja": "私たちが初めて会った日を覚えていますか？", "why": "後ろの we first met は完成した文。時を表す the day なので when。", "contrast": "when ＝ 時\nwhere ＝ 場所"},
+        {"id": "g4-04", "q": "That's the reason ___ she left the company.", "a": "why", "d": ["which", "where", "what"], "ja": "それが彼女が会社を辞めた理由だ。", "why": "後ろの she left the company は完成した文。the reason なので why。", "contrast": "the reason why ＋ 完成した文\nwhich は後ろに名詞が欠けているときだけ"},
+        {"id": "g4-05", "q": "The hotel ___ we stayed was near the station.", "a": "where", "d": ["which", "when", "what"], "ja": "私たちが泊まったホテルは駅の近くだった。", "why": "stay は目的語をとらない（stay at a hotel）。we stayed は完成した文なので where。", "contrast": "we stayed（完成）→ where\nwe booked ___（目的語が欠けている）→ which"},
+        {"id": "g4-06", "q": "The hotel ___ we booked was near the station.", "a": "which", "d": ["where", "when", "why"], "ja": "私たちが予約したホテルは駅の近くだった。", "why": "book は目的語をとる動詞で、何を予約したかが欠けているので which。", "contrast": "booked ___ ← 目的語が欠けている → which\nstayed ← 完成している → where"},
+        {"id": "g4-07", "q": "Friday is the day ___ the report is due.", "a": "when", "d": ["which", "where", "what"], "ja": "金曜日が報告書の締め切りの日だ。", "why": "the report is due は完成した文。時を表す the day なので when。", "contrast": "when ＝ 時\nwhich は名詞が欠けた文の前"},
+        {"id": "g4-08", "q": "The office ___ I work has a great view.", "a": "where", "d": ["which", "when", "what"], "ja": "私が働いている事務所は眺めがよい。", "why": "I work は完成した文（work は目的語をとらない）。場所なので where。", "contrast": "I work（完成）→ where\nI rent ___（目的語が欠けている）→ which"},
+        {"id": "g4-09", "q": "This is the restaurant ___ is famous for its pasta.", "a": "which", "d": ["where", "when", "why"], "ja": "ここはパスタで有名なレストランだ。", "why": "後ろの ___ is famous は主語が欠けているので関係代名詞 which。場所の名詞でも where にはならない。", "contrast": "主語が欠けている → which / that\n完成した文 → where"},
+        {"id": "g4-10", "q": "Nobody knows the reason ___ the meeting was canceled.", "a": "why", "d": ["which", "where", "what"], "ja": "会議が中止になった理由を誰も知らない。", "why": "the meeting was canceled は完成した文。the reason なので why。", "contrast": "the reason why ＋ 完成した文\nwhat は前に名詞（the reason）があるときは使えない"}
+      ]
+    },
+    {
+      "id": "g5", "title": "仮定法（過去・過去完了）",
+      "lesson": "事実と反対のことを言うときは、時制を1つ過去にずらす。\n今の事実の反対（仮定法過去）: If I had more time, I would study abroad.（実際は今、時間がない）\n過去の事実の反対（仮定法過去完了）: If I had known, I would have bought it.（実際は知らなかった）\n形: If + had + 過去分詞, would / could + have + 過去分詞\nTOEIC によく出る倒置: If I had known → Had I known\nI wish + 過去形 ＝ 今〜ならいいのに／I wish + had + 過去分詞 ＝ あのとき〜だったらよかったのに",
+      "questions": [
+        {"id": "g5-01", "q": "If I had known about the sale, I ___ more.", "a": "would have bought", "d": ["would buy", "had bought", "will buy"], "ja": "セールを知っていたら、もっと買ったのに。", "why": "If 節が had known（過去の事実の反対）なので、結論は would have + 過去分詞。", "contrast": "If had 過去分詞 → would have 過去分詞（過去の反対）\nIf 過去形 → would 原形（今の反対）"},
+        {"id": "g5-02", "q": "If I ___ more time, I would study abroad.", "a": "had", "d": ["have", "will have", "had had"], "ja": "もっと時間があれば、留学するのに。", "why": "結論が would study（今の事実の反対）なので、If 節は過去形 had。", "contrast": "今の反対 → If 過去形\n過去の反対 → If had 過去分詞"},
+        {"id": "g5-03", "q": "If we had left earlier, we ___ the train.", "a": "would have caught", "d": ["would catch", "had caught", "will catch"], "ja": "もっと早く出ていたら、電車に間に合ったのに。", "why": "If 節が had left なので、結論は would have caught。", "contrast": "would have caught ＝ 間に合ったのに（過去）\nwould catch ＝ 間に合うのに（今）"},
+        {"id": "g5-04", "q": "If she ___ the e-mail, she would have replied.", "a": "had received", "d": ["received", "receives", "has received"], "ja": "メールを受け取っていたら、彼女は返信しただろう。", "why": "結論が would have replied（過去の反対）なので、If 節は had + 過去分詞。", "contrast": "結論が would have → If は had 過去分詞\n結論が would 原形 → If は過去形"},
+        {"id": "g5-05", "q": "___ the report earlier, we could have fixed the error.", "a": "Had we received", "d": ["If we received", "We had received", "Were we received"], "ja": "報告書をもっと早く受け取っていたら、誤りを直せたのに。", "why": "If we had received の if を省くと、had が前に出て Had we received になる（倒置）。", "contrast": "Had we received ＝ If we had received\nIf we received は今の反対で、could have と合わない"},
+        {"id": "g5-06", "q": "If I were you, I ___ the offer.", "a": "would accept", "d": ["will accept", "would have accepted", "accepted"], "ja": "私があなたなら、その申し出を受けるだろう。", "why": "If I were you は今の事実の反対なので、結論は would + 原形。", "contrast": "If I were you → would 原形\nwould have accepted は過去の反対"},
+        {"id": "g5-07", "q": "I wish I ___ harder when I was a student.", "a": "had studied", "d": ["studied", "have studied", "would study"], "ja": "学生のころもっと勉強しておけばよかった。", "why": "学生のころ（過去）への後悔なので、I wish + had + 過去分詞。", "contrast": "I wish + had 過去分詞 ＝ 過去への後悔\nI wish + 過去形 ＝ 今の願い"},
+        {"id": "g5-08", "q": "I wish I ___ a car now.", "a": "had", "d": ["have", "had had", "will have"], "ja": "今、車を持っていたらいいのに。", "why": "now があり、今の事実の反対なので I wish + 過去形。", "contrast": "I wish + 過去形 ＝ 今\nI wish + had 過去分詞 ＝ 過去"},
+        {"id": "g5-09", "q": "If the weather ___ better yesterday, the event would have been held outdoors.", "a": "had been", "d": ["was", "were", "has been"], "ja": "昨日天気がよければ、行事は屋外で開かれただろう。", "why": "yesterday と would have been から、過去の事実の反対。If 節は had been。", "contrast": "had been ＝ 過去の反対\nwere ＝ 今の反対"},
+        {"id": "g5-10", "q": "If he ___ here now, he would help us.", "a": "were", "d": ["had been", "is", "will be"], "ja": "彼が今ここにいたら、手伝ってくれるだろう。", "why": "now があり今の事実の反対なので、be 動詞は were（主語が he でも were が正式）。", "contrast": "were ＝ 今の反対\nhad been ＝ 過去の反対"}
+      ]
+    },
+    {
+      "id": "g6", "title": "数えられない名詞",
+      "lesson": "日本語では数えられそうでも、英語では数えられない名詞がある。a / an も複数形の s も付かない。\nTOEIC によく出る: advice, information, equipment, furniture, luggage / baggage, feedback, news, merchandise\n数え方: a piece of advice, two pieces of furniture\n量の言い方: much / little / a lot of は使える。many / few / a few は使えない\n数えられる語に言い換えると数えられる: equipment → a machine, furniture → a chair",
+      "questions": [
+        {"id": "g6-01", "q": "She gave me some useful ___.", "a": "advice", "d": ["advices", "an advice", "advise"], "ja": "彼女は役に立つ助言をくれた。", "why": "advice は数えられない名詞なので s も an も付かない。advise は動詞。", "contrast": "advice ＝ 名詞（数えられない）\nadvise ＝ 動詞（助言する）"},
+        {"id": "g6-02", "q": "For more ___, please visit our Web site.", "a": "information", "d": ["informations", "an information", "informing"], "ja": "詳しくは当社のウェブサイトをご覧ください。", "why": "information は数えられない名詞で、s が付かない。", "contrast": "information（数えられない）\na fact / facts（数えられる）"},
+        {"id": "g6-03", "q": "The new office ___ will arrive on Monday.", "a": "equipment", "d": ["equipments", "an equipment", "equip"], "ja": "新しい事務機器は月曜日に届く。", "why": "equipment は数えられない名詞で、s が付かない。equip は動詞。", "contrast": "equipment（数えられない）\na machine / machines（数えられる）"},
+        {"id": "g6-04", "q": "We need to buy some ___ for the new office.", "a": "furniture", "d": ["furnitures", "a furniture", "furnish"], "ja": "新しい事務所のために家具を買う必要がある。", "why": "furniture は数えられない名詞。数えるときは a piece of furniture。", "contrast": "furniture（数えられない）\na chair / chairs（数えられる）"},
+        {"id": "g6-05", "q": "How ___ luggage do you have?", "a": "much", "d": ["many", "a few", "few"], "ja": "荷物はどのくらいありますか？", "why": "luggage は数えられない名詞なので、量を聞くときは much。", "contrast": "much ＋ 数えられない名詞\nmany ＋ 数えられる名詞の複数形"},
+        {"id": "g6-06", "q": "Thank you for your ___ on the survey.", "a": "feedback", "d": ["feedbacks", "a feedback", "feeding"], "ja": "アンケートへのご意見ありがとうございます。", "why": "feedback は数えられない名詞で、s が付かない。", "contrast": "feedback（数えられない）\na comment / comments（数えられる）"},
+        {"id": "g6-07", "q": "I have ___ news for you.", "a": "some good", "d": ["a good", "many good", "a few good"], "ja": "あなたによい知らせがあります。", "why": "news は s で終わるが数えられない名詞。a や many は付かず、some なら使える。", "contrast": "news（数えられない・単数扱い）\nmany / a few は数えられる名詞にだけ使う"},
+        {"id": "g6-08", "q": "Let me give you a piece of ___.", "a": "advice", "d": ["advices", "advise", "an advice"], "ja": "ひとつ助言させてください。", "why": "数えられない名詞は a piece of で数える。a piece of advice。", "contrast": "a piece of advice ＝ 1つの助言\nadvise は動詞"},
+        {"id": "g6-09", "q": "The store sells a wide range of ___.", "a": "merchandise", "d": ["merchandises", "a merchandise", "merchant"], "ja": "その店は幅広い商品を売っている。", "why": "merchandise（商品）は数えられない名詞で、s が付かない。merchant は「商人」。", "contrast": "merchandise（商品・数えられない）\nproducts（製品・数えられる）"},
+        {"id": "g6-10", "q": "There is too ___ equipment in this small room.", "a": "much", "d": ["many", "few", "a few"], "ja": "この小さな部屋には機器が多すぎる。", "why": "equipment は数えられない名詞なので much。動詞も There is（単数）になっている。", "contrast": "too much ＋ 数えられない名詞\ntoo many ＋ 数えられる名詞の複数形"}
+      ]
+    }
+  ]
+}
